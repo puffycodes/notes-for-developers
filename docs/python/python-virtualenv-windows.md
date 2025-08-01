@@ -111,4 +111,21 @@
     (See file tool-semgrep-installation.txt) (TODO)
 
 ***
+***
+
+## Packages required in main Python installation
+
+This is the list of packages that are needed in the main Python installation, after installing virtualenv. The versions of the packages may vary.
+```
+$ pip list
+Package      Version
+------------ -------
+distlib      0.3.9
+filelock     3.18.0
+pip          25.1.1
+platformdirs 4.3.8
+virtualenv   20.31.2
+```
+
+***
 *Updated on 1 August 2025*
