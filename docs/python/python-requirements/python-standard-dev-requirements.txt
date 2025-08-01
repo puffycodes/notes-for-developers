@@ -1,0 +1,105 @@
+# file: python-standard-dev-requirements.txt
+#
+# Requirements.txt file for Standard Development Environment
+
+# IDE
+
+## JupyterLab (not installed)
+## To use:
+##   (standard) $ jupyter-lab
+#jupyterlab
+
+## Jupyter Notebook
+## To use:
+##   (standard) $ jupyter notebook
+notebook
+
+## Voila (not installed)
+## To use:
+##   (standard) $ voila
+#voila
+
+## Jupyter Widgets
+ipywidgets
+
+# HTTP Connection Tools
+requests
+
+# Image Tools
+## ExifTool
+# on Windows: need ExifTool from https://exiftool.org/
+# on Linux: need libimage-exiftool-perl
+PyExifTool
+
+## Image Library
+opencv-python
+
+# Visualization Tools
+matplotlib
+
+# Data Analysis Libraries
+numpy
+pandas
+## openpyxl for reading and writing Excel files
+openpyxl
+
+# Symbolic Mathematics
+# Ref: https://www.sympy.org
+sympy
+
+# SciPy
+scipy
+
+# Cryptography
+pycryptodome
+
+# PyGame
+pygame
+
+# Replacement for Telnetlib
+telnetlib3
+Exscript
+
+# Docker API
+docker
+
+# Python Dotenv
+# Ref: https://pypi.org/project/python-dotenv/
+python-dotenv
+python-dotenv[cli]
+
+# Parsers
+## YAML Parser
+## Ref: https://pypi.org/project/PyYAML/
+PyYAML
+
+# Packet Tools
+scapy
+
+# Fuzzing Libraries
+## Ref: Sulley https://github.com/OpenRCE/sulley
+## Ref: BooFuzz https://github.com/jtpereyda/boofuzz
+boofuzz
+
+# Unit Test
+## Ref: https://github.com/wolever/parameterized
+parameterized
+
+# Misc Library
+hexdump
+
+# Documentation using Sphinx
+sphinx
+furo
+sphinx_rtd_theme
+
+# Packaging
+build
+twine
+
+# Speech Recognition and related libraries
+vosk
+ffmpeg
+ffmpeg-python
+
+# --- end of file --- #

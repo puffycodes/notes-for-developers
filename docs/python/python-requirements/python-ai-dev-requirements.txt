@@ -1,0 +1,56 @@
+# file: python-ai-dev-requirements.txt
+
+# Juypter Notebook & Widgets
+notebook
+ipywidgets
+#python-lsp-server[all]
+
+# Python Dotenv
+python-dotenv
+
+# Anthropic
+anthropic
+
+# Hugging Face
+huggingface_hub
+transformers
+datasets
+
+sentence-transformers
+
+# LangChain
+
+langchain
+langchain-core
+langchain-community
+
+langchain-anthropic
+langchain-openai
+langchain-perplexity
+langchain-huggingface
+langchain-tavily
+
+langchain-mongodb
+langchain-neo4j
+
+langchain-text-splitters
+
+# LangGraph
+
+langgraph>0.2.27
+langgraph-checkpoint-sqlite
+
+# CrewAI
+crewai
+#crewai_tools
+#crewai[tools]
+
+# Databases
+pymongo
+
+# Tools
+pypdf
+beautifulsoup4
+tiktoken
+
+# --- end of file --- #

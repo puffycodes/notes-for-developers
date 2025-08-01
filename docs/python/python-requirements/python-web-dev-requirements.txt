@@ -1,0 +1,8 @@
+# file: python-web-dev-requirements.txt
+#
+# Requirements.txt file for Web Development Environment
+
+flask
+python-dotenv
+
+# --- end of file --- #
