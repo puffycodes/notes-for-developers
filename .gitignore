@@ -3,3 +3,13 @@
 
 # The file for storing keys
 .env
+
+# MacOS
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Python
+__pycache__
+.venv
