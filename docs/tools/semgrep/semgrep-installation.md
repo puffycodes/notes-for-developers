@@ -92,7 +92,7 @@ Reference: [Semgrep Quickstart](https://semgrep.dev/docs/getting-started/)
     ```
     git clone https://github.com/bkimminich/juice-shop
     cd juice-shop
-    semgrep --config=
+    semgrep --config=auto
     ```
 
     Or if you don't have Semgrep installed, replace the semgrep command with:
@@ -127,6 +127,9 @@ Reference: [Semgrep Quickstart](https://semgrep.dev/docs/getting-started/)
     cd WebGoat
     semgrep --config=auto
     ```
+### List of Known Vulnerabilities
+
+1. [juice-shop](https://grietsdc.in/downloads/nasscom161121/pwning%20-%20JuiceShop.pdf)
 
 ***
 *Updated on 5 Auguest 2025*
