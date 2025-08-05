@@ -54,6 +54,8 @@ Reference: [Add Semgrep to CI](https://semgrep.dev/docs/semgrep-ci/overview/)
 
 ## Using Semgrep on Docker
 
+Update: Semgrep Docker image is now at semgrep/semgrep.
+
 Getting the Docker image for Semgrep
 ```
 $ docker pull returntocorp/semgrep
