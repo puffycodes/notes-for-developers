@@ -22,7 +22,7 @@ notebook
 ## Jupyter Widgets
 ipywidgets
 
-## Extra
+## Jupyter
 jupyter
 
 # Python Dotenv
