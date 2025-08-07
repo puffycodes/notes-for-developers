@@ -1,6 +1,9 @@
 # file: python-ai-dev-requirements.txt
 
+# Requirements.txt for AI Development Environment
+
 # Juypter Notebook & Widgets
+jupyter
 notebook
 ipywidgets
 #python-lsp-server[all]
@@ -8,42 +11,48 @@ ipywidgets
 # Python Dotenv
 python-dotenv
 
-# Anthropic
-anthropic
-
-# Hugging Face
-huggingface_hub
-transformers
-datasets
-
-sentence-transformers
-
 # LangChain
-
 langchain
 langchain-core
 langchain-community
 
+# LangChain Model Specific
 langchain-anthropic
+langchain-huggingface
 langchain-openai
 langchain-perplexity
-langchain-huggingface
 langchain-tavily
 
+# LangChain Databases
 langchain-mongodb
 langchain-neo4j
 
+# LangChain Misc
 langchain-text-splitters
 
 # LangGraph
-
-langgraph>0.2.27
+langgraph
 langgraph-checkpoint-sqlite
 
 # CrewAI
 crewai
 #crewai_tools
 #crewai[tools]
+
+# Anthropic
+anthropic
+
+# Hugging Face
+huggingface_hub
+#huggingface_hub[tensorflow]
+#huggingface_hub[torch]
+#huggingface_hub[cli]
+
+transformers
+datasets
+#evaluate
+
+sentence-transformers
 
 # Databases
 pymongo
