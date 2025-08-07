@@ -22,8 +22,79 @@ notebook
 ## Jupyter Widgets
 ipywidgets
 
+## Extra
+jupyter
+
+# Python Dotenv
+# Ref: https://pypi.org/project/python-dotenv/
+python-dotenv
+python-dotenv[cli]
+
+# Data Analysis Libraries
+numpy
+pandas
+## openpyxl for reading and writing Excel files
+openpyxl
+
+# Visualization Tools
+matplotlib
+
+# Symbolic Mathematics
+# Ref: https://www.sympy.org
+sympy
+
+# SciPy
+scipy
+
+# Does not install on MacOS
+#gmpy2
+
+# Cryptography
+pycryptodome
+pycryptodome-test-vectors
+
+cryptography
+rsa
+
 # HTTP Connection Tools
 requests
+
+# Replacement for Telnetlib
+telnetlib3
+Exscript
+
+# Docker API
+docker
+
+# Parsers
+## YAML Parser
+## Ref: https://pypi.org/project/PyYAML/
+PyYAML
+
+## HTML Parser
+beautifulsoup4
+html5lib
+lxml
+
+# Packet Tools
+scapy
+#pyshark
+#dpkt
+
+# Fuzzing Libraries
+## Ref: Sulley https://github.com/OpenRCE/sulley
+## Ref: BooFuzz https://github.com/jtpereyda/boofuzz
+boofuzz
+
+# Encoding and decoding
+base58
+
+# Misc Library
+hexdump
+
+# Python Decompiler
+#decompyle3
+#decompyle6
 
 # Image Tools
 ## ExifTool
@@ -34,59 +105,17 @@ PyExifTool
 ## Image Library
 opencv-python
 
-# Visualization Tools
-matplotlib
-
-# Data Analysis Libraries
-numpy
-pandas
-## openpyxl for reading and writing Excel files
-openpyxl
-
-# Symbolic Mathematics
-# Ref: https://www.sympy.org
-sympy
-
-# SciPy
-scipy
-
-# Cryptography
-pycryptodome
+# Speech Recognition and related libraries
+vosk
+ffmpeg
+ffmpeg-python
 
 # PyGame
 pygame
 
-# Replacement for Telnetlib
-telnetlib3
-Exscript
-
-# Docker API
-docker
-
-# Python Dotenv
-# Ref: https://pypi.org/project/python-dotenv/
-python-dotenv
-python-dotenv[cli]
-
-# Parsers
-## YAML Parser
-## Ref: https://pypi.org/project/PyYAML/
-PyYAML
-
-# Packet Tools
-scapy
-
-# Fuzzing Libraries
-## Ref: Sulley https://github.com/OpenRCE/sulley
-## Ref: BooFuzz https://github.com/jtpereyda/boofuzz
-boofuzz
-
 # Unit Test
 ## Ref: https://github.com/wolever/parameterized
 parameterized
-
-# Misc Library
-hexdump
 
 # Documentation using Sphinx
 sphinx
@@ -96,10 +125,5 @@ sphinx_rtd_theme
 # Packaging
 build
 twine
-
-# Speech Recognition and related libraries
-vosk
-ffmpeg
-ffmpeg-python
 
 # --- end of file --- #
