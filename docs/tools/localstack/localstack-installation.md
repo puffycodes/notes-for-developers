@@ -3,12 +3,13 @@
 ## References
 
 1. [LocalStack](https://www.localstack.cloud)
+1. [Installation](https://docs.localstack.cloud/aws/getting-started/installation)
+1. [Quick Start](https://docs.localstack.cloud/aws/getting-started/quickstart)
 
 ## Installation
 
-Reference: [Installation](https://docs.localstack.cloud/aws/getting-started/installation)
+1. Pre-requisite: Need a working installation of Docker.
 
-1. Need a working installation of Docker.
 1. Install LocalStack CLI for Python with Pip.
 
     ```
@@ -20,10 +21,12 @@ Reference: [Installation](https://docs.localstack.cloud/aws/getting-started/inst
         ```
     - Do not use sudo or root user when starting LocalStack. It should be installed and started entirely under a local non-root user.
     - On Windows, may need to [enable long path](#enabling-windows-long-path) if pip gives warning.
+
 1. Verify LocalStack
     ```
     localstack --version
     ```
+
 1. Start LocalStack
     ```
     localstack start
@@ -40,6 +43,7 @@ Reference: [Installation](https://docs.localstack.cloud/aws/getting-started/inst
         ```
         docker pull localstack/localstack-pro
         ```
+
 1. Update LocalStack
     ```
     localstack update --help
