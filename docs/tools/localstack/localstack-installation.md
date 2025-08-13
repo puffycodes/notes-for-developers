@@ -20,7 +20,7 @@
         python -m pip install --user localstack
         ```
     - Do not use sudo or root user when starting LocalStack. It should be installed and started entirely under a local non-root user.
-    - On Windows, may need to [enable long path](#enabling-windows-long-path) if pip gives warning.
+    - On Windows, may need to [enable long paths](#enabling-windows-long-paths) if pip gives warning.
 
 1. Verify LocalStack
     ```
@@ -49,7 +49,7 @@
     localstack update --help
     ```
 
-## Enabling Windows Long Path
+## Enabling Windows Long Paths
 
 1. [Reference 1](https://pip.pypa.io/warnings/enable-long-paths)
 1. [Reference 2](https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=registry#enable-long-paths-in-windows-10-version-1607-and-later)
