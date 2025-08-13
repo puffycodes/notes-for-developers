@@ -19,7 +19,7 @@ Reference: [Installation](https://docs.localstack.cloud/aws/getting-started/inst
         python -m pip install --user localstack
         ```
     - Do not use sudo or root user when starting LocalStack. It should be installed and started entirely under a local non-root user.
-    - On Windows, may need to [enable long path](#enabling-windows-long-path)
+    - On Windows, may need to [enable long path](#enabling-windows-long-path) if pip gives warning.
 1. Verify LocalStack
     ```
     localstack --version
