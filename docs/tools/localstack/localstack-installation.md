@@ -81,7 +81,7 @@ docker run \
 
 ## Tools
 
-### Install awslocal
+### awslocal
 
 Installation with the most recent version of the underlying AWS CLI version 1 (awscli) package:
 ```
@@ -93,9 +93,11 @@ Verify installation and get help:
 awslocal help
 ```
 
-### Install tflocal
+### tflocal
 
-Reference: [Terraform for LocalStack](https://docs.localstack.cloud/aws/integrations/infrastructure-as-code/terraform)
+References:
+1. [Terraform for LocalStack](https://docs.localstack.cloud/aws/integrations/infrastructure-as-code/terraform)
+1. [Some Terraform Examples](./localstack-terraform-examples/README.md)
 
 Installation:
 ```
