@@ -5,6 +5,7 @@
 1. [LocalStack](https://www.localstack.cloud)
 1. [Installation](https://docs.localstack.cloud/aws/getting-started/installation)
 1. [Quick Start](https://docs.localstack.cloud/aws/getting-started/quickstart)
+1. [Tutorial](https://docs.localstack.cloud/aws/tutorials)
 
 ## Installation
 
@@ -75,6 +76,40 @@ docker run \
   localstack/localstack-pro
 ```
 
+***
+***
+
+## Tools
+
+### Install awslocal
+
+Installation with the most recent version of the underlying AWS CLI version 1 (awscli) package:
+```
+pip install awscli-local[ver1]
+```
+
+Verify installation and get help:
+```
+awslocal help
+```
+
+### Install tflocal
+
+Reference: [Terraform for LocalStack](https://docs.localstack.cloud/aws/integrations/infrastructure-as-code/terraform)
+
+Installation:
+```
+pip install terraform-local
+```
+
+Verification and Help:
+```
+tflocal --help
+```
+
+***
+***
+
 ## Enabling Windows Long Paths
 
 1. [Reference 1](https://pip.pypa.io/warnings/enable-long-paths)
@@ -88,4 +123,4 @@ docker run \
     ```
 
 ***
-*Updated on 13 August 2025*
+*Updated on 14 August 2025*
