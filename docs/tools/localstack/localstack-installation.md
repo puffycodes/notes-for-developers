@@ -49,6 +49,32 @@
     localstack update --help
     ```
 
+## Other methods of starting LocalStack
+
+### Using Docker
+
+For Community Edition:
+```
+docker run \
+  --rm -it \
+  -p 127.0.0.1:4566:4566 \
+  -p 127.0.0.1:4510-4559:4510-4559 \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  localstack/localstack
+```
+
+For Pro Edition:
+```
+docker run \
+  --rm -it \
+  -p 127.0.0.1:4566:4566 \
+  -p 127.0.0.1:4510-4559:4510-4559 \
+  -p 127.0.0.1:443:443 \
+  -e LOCALSTACK_AUTH_TOKEN=${LOCALSTACK_AUTH_TOKEN:?} \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  localstack/localstack-pro
+```
+
 ## Enabling Windows Long Paths
 
 1. [Reference 1](https://pip.pypa.io/warnings/enable-long-paths)
