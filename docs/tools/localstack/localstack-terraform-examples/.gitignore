@@ -1,0 +1,6 @@
+# Terraform related
+.terraform*
+terraform.tfstate*
+
+# Terraform for LocalStack
+localstack_providers_override.tf
