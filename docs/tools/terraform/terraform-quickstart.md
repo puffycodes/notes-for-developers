@@ -1,9 +1,10 @@
-# Terraform
+# Terraform Quickstart
 
 ## Installation
 
 1. [Terraform Home Page](https://developer.hashicorp.com/terraform)
 1. [Terraform Installation](https://developer.hashicorp.com/terraform/install)
+1. [Terraform Installation Steps](terraform-installation.md)
 
 ## Tutorial
 
