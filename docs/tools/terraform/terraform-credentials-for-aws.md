@@ -1,4 +1,4 @@
-# Credentials for AWS
+# Terraform Credentials for AWS
 
 ## MacOS and Linux
 
