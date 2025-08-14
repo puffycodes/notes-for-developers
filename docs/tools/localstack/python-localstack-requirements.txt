@@ -1,0 +1,10 @@
+# file: python-localstack-requirements.txt
+
+# Python requirements.txt for LocalStack
+
+localstack
+
+awscli-local[ver1]
+terraform-local
+
+# --- end of file --- #
