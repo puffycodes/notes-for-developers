@@ -2,7 +2,7 @@
 
 ## Install tflocal
 
-1. Install Terraform
+1. [Install Terraform](../../terraform/terraform-installation#installation)
 1. [Install tflocal](../localstack-installation.md#install-tflocal)
 
 ## Simple S3 Bucket
