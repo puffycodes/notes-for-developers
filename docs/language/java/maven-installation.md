@@ -4,6 +4,7 @@
 
 1. [Download](https://maven.apache.org/download.cgi)
 1. [Installation](https://maven.apache.org/install.html)
+1. [Maven Tutorial](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
 
 ## Installation Step
 
