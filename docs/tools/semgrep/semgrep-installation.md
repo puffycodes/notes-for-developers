@@ -4,6 +4,7 @@
 
 1. [Semgrep](https://semgrep.dev/)
 1. [Semgrep Quickstart](https://semgrep.dev/docs/getting-started/)
+1. [Writing Semgrep Rules](https://semgrep.dev/blog/2020/writing-semgrep-rules-a-methodology/)
 
 ## Installing Semgrep on Python
 
@@ -134,4 +135,4 @@ Reference: [Semgrep Quickstart](https://semgrep.dev/docs/getting-started/)
 1. [juice-shop](https://grietsdc.in/downloads/nasscom161121/pwning%20-%20JuiceShop.pdf)
 
 ***
-*Updated on 5 Auguest 2025*
+*Updated on 10 September 2025*
