@@ -93,7 +93,7 @@ Reference: [Semgrep Quickstart](https://semgrep.dev/docs/getting-started/)
 
 1. juice-shop, a vulnerable Node.js + Express app:
     ```
-    git clone https://github.com/bkimminich/juice-shop
+    git clone https://github.com/juice-shop/juice-shop
     cd juice-shop
     semgrep --config=auto
     ```
@@ -102,6 +102,8 @@ Reference: [Semgrep Quickstart](https://semgrep.dev/docs/getting-started/)
     ```
     docker run --rm -v "$(pwd)/juice-shop:/src" returntocorp/semgrep semgrep --config p/security-audit /src
     ```
+
+    Juice shop repository has changed from https://github.com/bkimminich/juice-shop to https://github.com/juice-shop/juice-shop
 
 1. railsgoat, a vulnerable Ruby on Rails app:
     ```
@@ -135,4 +137,4 @@ Reference: [Semgrep Quickstart](https://semgrep.dev/docs/getting-started/)
 1. [juice-shop](https://grietsdc.in/downloads/nasscom161121/pwning%20-%20JuiceShop.pdf)
 
 ***
-*Updated on 10 September 2025*
+*Updated on 27 October 2025*
