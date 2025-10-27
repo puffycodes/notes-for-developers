@@ -84,4 +84,28 @@ Exit Amazon Q Developer CLI
 ```
 
 ***
-*Updated on 2 October 2025*
+***
+
+## Install Amazon Q Developer CLI for MacOS
+
+1. [Download Amazon Q for command line for macOS.](https://desktop-release.q.us-east-1.amazonaws.com/latest/Amazon%20Q.dmg)
+1. Double-click on the downloaded .dmg file and drag the app into your applications folder.
+1. In your applications folder, double-click on Amazon Q. The GUI will open.
+1. Enable the shell integrations.
+1. Authenticate with Builder ID.
+1. Follow the instructions to install the shell integrations.
+
+To disable Amazon Q AI-powered inline completions:
+```
+q inline disable
+```
+
+To disable Amazon Q shell auto-completion:
+
+1. Comment away the relevant line(s) in ~/.zshrc or ~/.bashrc or ~/.bash_profile.
+
+***
+***
+
+***
+*Updated on 3 October 2025*
