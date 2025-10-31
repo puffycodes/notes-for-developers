@@ -102,7 +102,7 @@ q inline disable
 
 To disable Amazon Q shell auto-completion:
 
-1. Comment away the relevant line(s) in ~/.zshrc or ~/.bashrc or ~/.bash_profile.
+1. Set in Amazon Q UI.
 
 ***
 ***
