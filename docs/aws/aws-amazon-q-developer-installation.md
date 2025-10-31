@@ -95,14 +95,19 @@ Exit Amazon Q Developer CLI
 1. Authenticate with Builder ID.
 1. Follow the instructions to install the shell integrations.
 
-To disable Amazon Q AI-powered inline completions:
+To disable Amazon Q AI-powered inline completions: (What does this disable?)
 ```
 q inline disable
 ```
 
 To disable Amazon Q shell auto-completion:
 
-1. Set in Amazon Q UI.
+1. Set in Amazon Q UI -> CLI Completions -> Enable Autocomplete
+
+To disable sharing content and telemetry:
+
+1. Set in Amazon Q UI -> Preferences -> Share Amazon Q content with AWS
+1. Set in Amazon Q UI -> Preferences -> Telemetry
 
 ***
 ***
