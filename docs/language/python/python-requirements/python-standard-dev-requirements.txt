@@ -113,6 +113,13 @@ ffmpeg-python
 # PyGame
 pygame
 
+# Financial
+openbb
+openbb-technical
+## TA-Lib require the installation of C++ TA-Lib
+## Ref: https://ta-lib.org/install
+TA-Lib
+
 # Unit Test
 ## Ref: https://github.com/wolever/parameterized
 parameterized
