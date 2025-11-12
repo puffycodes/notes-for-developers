@@ -1,5 +1,9 @@
 # Python Packages for Financial
 
+## Data Source
+
+1. [Financial Modeling Prep](https://financialmodelingprep.com)
+
 ## Packages
 
 1. [OpenBB - Access Market Data](https://pypi.org/project/openbb)
@@ -23,6 +27,12 @@
     1. [Install Python Package](https://github.com/TA-Lib/ta-lib-python.git)
         ```
         pip install TA-Lib
+        ```
+
+1. [FinanceToolkit](https://github.com/JerBouma/FinanceToolkit)
+    1. Install Python Package
+        ```
+        pip install financetoolkit
         ```
 
 ***
