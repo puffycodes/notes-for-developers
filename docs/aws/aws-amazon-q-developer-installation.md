@@ -5,6 +5,7 @@
 1. [Amazon Q Documentation](https://docs.aws.amazon.com/amazonq/)
 1. [Install Amazon Q Developer CLI](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-installing.html)
 1. [Install Amazon Q Developer CLI on Windows](https://dev.to/aws/the-essential-guide-to-installing-amazon-q-developer-cli-on-windows-lmh)
+1. [Prompts Library for Amazon Q Developer](https://www.promptz.dev)
 
 ***
 ***
