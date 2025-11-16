@@ -6,6 +6,8 @@
 
 ## Packages
 
+### Market Data
+
 1. [OpenBB - Access Market Data](https://pypi.org/project/openbb)
     1. Install Python Package
         ```
@@ -18,6 +20,14 @@
             pip install openbb-technical
             ```
 
+1. [FinanceToolkit](https://github.com/JerBouma/FinanceToolkit)
+    1. Install Python Package
+        ```
+        pip install financetoolkit
+        ```
+
+### Technical Indicators
+
 1. [TA-Lib - Technical Analysis](https://ta-lib.org)
     1. [Install TA-Lib](https://ta-lib.org/install)
         1. For MacOS
@@ -29,11 +39,20 @@
         pip install TA-Lib
         ```
 
-1. [FinanceToolkit](https://github.com/JerBouma/FinanceToolkit)
-    1. Install Python Package
-        ```
-        pip install financetoolkit
-        ```
+### Visualization
+
+1. [Plotly](https://plotly.com/python/)
+    ```
+    pip install plotly
+    ```
+
+### Data Analysis
+
+1. [Pandas](https://pandas.pydata.org/)
+
+### Machine Learning
+
+1. [Scikit Learn](https://scikit-learn.org/stable/)
 
 ***
-*Updated on 2 November 2025*
+*Updated on 16 November 2025*
