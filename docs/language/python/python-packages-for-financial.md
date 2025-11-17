@@ -45,6 +45,10 @@
     ```
     pip install plotly
     ```
+1. [Web-Base UI for Plotly](https://dash.plotly.com/)
+    ```
+    pip install dash
+    ```
 
 ### Data Analysis
 
