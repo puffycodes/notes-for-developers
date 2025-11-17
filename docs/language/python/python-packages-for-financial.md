@@ -45,10 +45,12 @@
     ```
     pip install plotly
     ```
-1. [Web-Base UI for Plotly](https://dash.plotly.com/)
-    ```
-    pip install dash
-    ```
+1. [Dash - Web-Base UI for Plotly](https://dash.plotly.com/)
+    1. Installation
+        ```
+        pip install dash
+        ```
+    1. [Dash Tutorial](https://dash.plotly.com/tutorial)
 
 ### Data Analysis
 
@@ -59,4 +61,4 @@
 1. [Scikit Learn](https://scikit-learn.org/stable/)
 
 ***
-*Updated on 16 November 2025*
+*Updated on 17 November 2025*
