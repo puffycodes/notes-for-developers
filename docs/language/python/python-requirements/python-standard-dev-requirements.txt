@@ -42,6 +42,9 @@ xlwt
 matplotlib
 plotly
 
+# Web based UI for plotly
+dash
+
 # Symbolic Mathematics
 # Ref: https://www.sympy.org
 sympy
