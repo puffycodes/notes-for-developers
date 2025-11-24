@@ -18,5 +18,9 @@
 1. [Matter AI](https://www.automationtools.directory/item/matter-ai)
 1. [Entelligence AI](https://www.automationtools.directory/item/entelligence-ai)
 
+## Tutorials
+
+1. [Amazon Q Developer Workshop: Best Practices for Java Developers](https://github.com/timwukp/amazonq-java-sql-developer-workshop)
+
 ***
 *Updated on 24 November 2025*
