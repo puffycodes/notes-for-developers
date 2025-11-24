@@ -42,6 +42,9 @@ crewai
 # Anthropic
 anthropic
 
+# MCP
+mcp-use
+
 # Hugging Face
 huggingface_hub
 #huggingface_hub[tensorflow]
