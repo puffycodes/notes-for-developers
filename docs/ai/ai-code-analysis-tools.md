@@ -10,6 +10,7 @@
 
 ## Tools
 
+1. [Kiro](https://kiro.dev/) - Formerly Amazon Q Developer
 1. [Almanax](https://almanax.ai/)
 1. [Corgea](https://www.corgea.app/registration/)
 1. [ZeroPath](https://zeropath.com/)
