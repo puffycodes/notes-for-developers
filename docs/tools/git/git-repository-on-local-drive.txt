@@ -1,0 +1,39 @@
+Creating Git Repository on Local Drive
+======================================
+
+# Create an empty git repository
+
+$ cd <repo_main_dir>
+$ mkdir <repo_name>
+$ cd <repo_name>
+$ git init --bare
+
+# Push current working directory
+
+$ cd <working_dir>
+$ git remote add origin <repo_main_dir>/<repo_name>
+$ git push origin master
+
+Example
+-------
+
+# Ref: https://stackoverflow.com/questions/10603671/how-to-add-a-local-repo-and-treat-it-as-a-remote-repo
+
+# -- to create
+
+$ git init --bare ~/repos/myproject.git
+$ cd /path/to/existing/repo
+$ git remote add origin ~/repos/myproject.git
+$ git push origin master
+
+# need to do this? Do this for an existing local repo after changing its remote repo (?)
+$ git push --set-upstream origin master
+
+# use this to remove the current remote
+$ git remote remove origin
+
+# -- to clone
+
+$ git clone ~/repos/myproject.git
+
+../
