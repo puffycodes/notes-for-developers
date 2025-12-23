@@ -1,5 +1,9 @@
 # Running LLM Locally
 
+## Nvidia DGX Spark (Hardware)
+
+Reference: [DGX Spark User Guide](https://docs.nvidia.com/dgx/dgx-spark/index.html)
+
 ## Docker Model Runner
 
 Reference: [Docker Model Runner](https://docs.docker.com/ai/model-runner/)
