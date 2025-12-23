@@ -27,4 +27,4 @@ docker model run ai/gpt-oss:20B
 Reference: [LMStudio](https://lmstudio.ai/)
 
 ***
-*Updated on 28 November 2025*
+*Updated on 23 December 2025*
