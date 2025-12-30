@@ -22,6 +22,13 @@ Run OpenAI gpt-oss with a single command:
 docker model run ai/gpt-oss:20B
 ```
 
+Pull and run Mistral model:
+
+```
+docker model pull ai/mistral:7B-Q4_0
+docker model run ai/mistral:7B-Q4_0
+```
+
 ## LMStudio
 
 Reference: [LMStudio](https://lmstudio.ai/)
