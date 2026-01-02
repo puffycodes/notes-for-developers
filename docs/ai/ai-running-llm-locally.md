@@ -29,6 +29,12 @@ docker model pull ai/mistral:7B-Q4_0
 docker model run ai/mistral:7B-Q4_0
 ```
 
+Text to Image:
+
+```
+docker model pull hf.co/StableDiffusionVN/Flux:Q4_K_S
+```
+
 ## LMStudio
 
 Reference: [LMStudio](https://lmstudio.ai/)
