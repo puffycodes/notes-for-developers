@@ -8,6 +8,8 @@
 
 1. GMKTEC EVO-X2 AI Mini PC 128GB with Ryzen AI MAX+ 395
 
+    Reference: [GMKtec](https://gmktec.com)
+
 ## Docker Model Runner
 
 Reference: [Docker Model Runner](https://docs.docker.com/ai/model-runner/)
