@@ -1,8 +1,12 @@
 # Running LLM Locally
 
-## Nvidia DGX Spark (Hardware)
+## Hardware
 
-Reference: [DGX Spark User Guide](https://docs.nvidia.com/dgx/dgx-spark/index.html)
+1. Nvidia DGX Spark
+
+    Reference: [DGX Spark User Guide](https://docs.nvidia.com/dgx/dgx-spark/index.html)
+
+1. GMKTEC EVO-X2 AI Mini PC 128GB with Ryzen AI MAX+ 395
 
 ## Docker Model Runner
 
