@@ -1,0 +1,21 @@
+# file: python-financial-dev-requirements.txt
+#
+# Requirements.txt file for Financial Development Environment
+
+# IDE
+notebook
+jupyter
+
+# Python Dotenv
+python-dotenv
+
+# Financial Related Packages
+
+pandas
+numpy
+
+matplotlib
+
+statsmodels
+
+# --- end of file --- #
