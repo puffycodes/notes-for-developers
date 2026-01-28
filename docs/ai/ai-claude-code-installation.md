@@ -22,7 +22,9 @@ cd your-awesome-project
 claude
 ```
 
-Authentication with Claude's Pro or Max Plan
+Authentication Options:
+1. With [Claude's Pro or Max Plan](https://claude.ai)
+2. With [Claude Console](https://console.anthropic.com)
 
 ***
 *Updated on 28 January 2026*
