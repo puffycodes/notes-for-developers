@@ -6,6 +6,9 @@
 notebook
 jupyter
 
+# Jupyter Widgets
+ipywidgets
+
 # Python Dotenv
 python-dotenv
 
