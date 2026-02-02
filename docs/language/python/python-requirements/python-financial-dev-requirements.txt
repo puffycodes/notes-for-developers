@@ -6,7 +6,7 @@
 notebook
 jupyter
 
-# Jupyter Widgets
+# Jupyter Widgets (Not needed as another package has already install this)
 ipywidgets
 
 # Python Dotenv
