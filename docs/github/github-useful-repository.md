@@ -3,6 +3,7 @@
 ## Cyber Security
 
 1. [Common Password List (rockyou, etc.)](https://github.com/josuamarcelc/common-password-list)
+1. [The JSON Web Token Toolkit v2](https://github.com/ticarpi/jwt_tool.git)
 
 ## Vulnerable Code
 
