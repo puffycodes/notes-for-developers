@@ -4,6 +4,7 @@
 
 1. [Common Password List (rockyou, etc.)](https://github.com/josuamarcelc/common-password-list)
 1. [The JSON Web Token Toolkit v2](https://github.com/ticarpi/jwt_tool.git)
+1. [Express Cookie Session](https://github.com/expressjs/cookie-session.git)
 
 ## Vulnerable Code
 
