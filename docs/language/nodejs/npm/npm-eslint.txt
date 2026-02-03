@@ -1,0 +1,15 @@
+NPM ESLint
+==========
+
+$ npm install eslint
+
+For VSCode
+----------
+
+$ npx eslint --init
+
+or
+
+$ npm init @eslint/config
+
+../

@@ -1,0 +1,31 @@
+Offline Npm Packages
+====================
+
+Option 1: Using --offline feature of npm after v5
+-------------------------------------------------
+
+Ref: https://blog.npmjs.org/post/161081169345/v500
+
+Use the option --offline when installing npm packages.
+
+Use the 'npm cache' command to manage cache.
+
+Option 2: Using local-npm
+-------------------------
+
+Ref: https://addyosmani.com/blog/using-npm-offline/
+
+# Doesn't work anymore???
+
+$ npm install -g local-npm
+$ local-npm
+$ npm set registry http://127.0.0.1:5080
+$ (use npm as per normal)
+
+# to restore to online registry
+$ npm set registry https://registry.npmjs.org
+
+# server setup for local-npm
+# http://localhost:5080/_browse
+
+../
