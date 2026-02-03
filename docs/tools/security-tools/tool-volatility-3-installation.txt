@@ -1,0 +1,6 @@
+Volatility 3
+============
+
+(volatility-3) $ pip install volatility3-2.4.1-py3-none-any.whl
+
+../

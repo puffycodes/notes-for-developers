@@ -1,0 +1,15 @@
+Bandit
+======
+
+# Ref: https://bandit.readthedocs.io/en/latest/
+
+# installation
+(bandit) $ pip install bandit
+
+# installation with TOML support
+(bandit) $ pip install bandit[toml]
+
+# run bandit
+(bandit) $ bandit -r path/to/your/code
+
+../
