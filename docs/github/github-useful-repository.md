@@ -1,4 +1,4 @@
-# Useful Git Hub Repository
+# Useful GitHub Repository
 
 ## Cyber Security
 
