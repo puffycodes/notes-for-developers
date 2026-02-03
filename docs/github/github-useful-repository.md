@@ -1,12 +1,12 @@
 # Useful GitHub Repository
 
-## Cyber Security Tools
+## Cyber Security Tool
 
 1. [Common Password List (rockyou, etc.)](https://github.com/josuamarcelc/common-password-list)
 1. [The JSON Web Token Toolkit v2](https://github.com/ticarpi/jwt_tool.git)
 1. [Express Cookie Session](https://github.com/expressjs/cookie-session.git)
-1. [Burpsuite Extensions](https://github.com/laconicwolf/burp-extensions.git)
-1. [Autorecon](https://github.com/Tib3rius/AutoRecon.git)
+1. [Burp Extensions](https://github.com/laconicwolf/burp-extensions.git)
+1. [AutoRecon](https://github.com/Tib3rius/AutoRecon.git)
 
 ## Vulnerable Code
 
@@ -16,9 +16,9 @@
 1. [Vulnerable Flask App](https://github.com/we45/Vulnerable-Flask-App)
 1. [WebGoat](https://github.com/WebGoat/WebGoat)
 
-## Tutorial
+## workshop and Tutorial
 
-1. [AWS Q Developer]($ git clone https://github.com/timwukp/amazonq-java-sql-developer-workshop.git)
+1. [AWS Q Developer Workshop: Best Practices for Java Developers](https://github.com/timwukp/amazonq-java-sql-developer-workshop.git)
 
 ***
 *Updated on 3 February 2026*
