@@ -1,0 +1,29 @@
+View Files in Docker Images
+===========================
+
+# from VSCode
+# Ref: http://thedenster.com/2020/11/browse-files-in-docker/
+
+# from command lines
+# Ref: https://www.baeldung.com/ops/docker-container-filesystem
+
+# Docker Scout
+# Ref: https://docs.docker.com/scout/
+
+Dive
+----
+
+# A tool, in Go
+# Ref: https://github.com/wagoodman/dive
+$ git clone https://github.com/wagoodman/dive.git
+
+# installation on windows
+# need Go version 1.10 or higher
+$ go get github.com/wagoodman/dive
+
+Docker SDK for Python
+---------------------
+
+# Ref: https://docker-py.readthedocs.io/en/stable/
+
+../
