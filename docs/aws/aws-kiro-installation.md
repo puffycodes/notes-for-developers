@@ -3,6 +3,7 @@
 ## Kiro
 
 1. [Kiro](https://kiro.dev/)
+1. [Kiro Documentation](https://kiro.dev/docs/)
 
 ## Kiro IDE and CLI Installation
 
@@ -18,6 +19,7 @@
 ## AWS MCP Servers
 
 1. [AWS Labs MCP](https://gallery.ecr.aws/awslabs-mcp)
+1. [Kiro MCP Direcotry](https://kiro.dev/docs/mcp/servers/)
 
 ## Workshop and Tutorial
 
