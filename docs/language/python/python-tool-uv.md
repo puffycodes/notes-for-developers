@@ -3,6 +3,7 @@
 ## Reference
 
 1. [Managing Python Virtual Environments with UV: A Comprehensive Guide](https://medium.com/@vkmauryavk/managing-python-virtual-environments-with-uv-a-comprehensive-guide-ac74d3ad8dff)
+1. [Using Python Environments](https://docs.astral.sh/uv/pip/environments/)
 
 ## Installation of uv
 
