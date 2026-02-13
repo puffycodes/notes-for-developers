@@ -1,0 +1,15 @@
+# file: python-3.12-main-requirements.txt
+
+# The packages that is required in the main installation of Python 3.12.
+#
+# This file can be used to update the packages as follow.
+#  $ pip3 install -r <this-file> --upgrade
+
+# Note that pip itself should be updated separately.
+
+distlib
+filelock
+platformdirs
+virtualenv
+
+# --- end of file --- #
