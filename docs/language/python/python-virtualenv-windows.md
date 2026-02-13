@@ -5,6 +5,7 @@
 1. [Download Python for Windows](https://www.python.org/downloads/windows/)
 1. [How to Set Up a Python Virtual Environment on Windows 10](https://www.liquidweb.com/kb/how-to-setup-a-python-virtual-environment-on-windows-10/)
 1. [PyPI Package: virtualenvwrapper-win](https://pypi.org/project/virtualenvwrapper-win/)
+1. [PEP 405 – Python Virtual Environments](https://peps.python.org/pep-0405/)
 
 ***
 ***
