@@ -18,4 +18,20 @@
 1. Same process as installation above.
 
 ***
+***
+
+# Pnpm Installation
+
+Using Corepack (included with node.js) - This is the preferred method:
+```bash
+corepack enable
+corepack prepare pnpm@latest --activate
+```
+
+Using npm (Global Install):
+```bash
+npm install -g pnpm
+```
+
+***
 *Updated on 9 March 2026*
