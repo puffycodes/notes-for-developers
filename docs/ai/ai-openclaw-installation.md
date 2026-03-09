@@ -5,6 +5,7 @@
 1. [OpenClaw](https://openclaw.ai/)
 1. [OpenClaw Local Installation](https://www.tencentcloud.com/techpedia/140023)
     - This guide refers to the use of Java, while the GitHub repository contains code for typescript.
+1. [OpenClaw - Getting Started](https://docs.openclaw.ai/start/getting-started)
 
 ## Installation
 
