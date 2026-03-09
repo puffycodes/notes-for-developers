@@ -17,7 +17,19 @@ curl -fsSL https://openclaw.ai/install.sh | bash
 
 ### Install Without Admin Rights
 
-From Git:
+[Install from Source](https://docs.openclaw.ai/install#from-source)
+
+Using pnpm:
+```bash
+git clone https://github.com/openclaw/openclaw.git
+cd openclaw
+pnpm install
+pnpm ui:build
+pnpm build
+pnpm openclaw onboard --install-daemon
+```
+
+Using npm: (Does this work? Use the above. Don't use this.)
 ```bash
 git clone https://github.com/OpenClaw/OpenClaw.git
 cd OpenClaw
