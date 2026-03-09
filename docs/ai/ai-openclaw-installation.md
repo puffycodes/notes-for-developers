@@ -29,13 +29,5 @@ pnpm build
 pnpm openclaw onboard --install-daemon
 ```
 
-Using npm: (Does this work? Use the above. Don't use this.)
-```bash
-git clone https://github.com/OpenClaw/OpenClaw.git
-cd OpenClaw
-npm install
-node scripts/run-node.mjs onboard
-```
-
 ***
 *Updated on 9 March 2026*
