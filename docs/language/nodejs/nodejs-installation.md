@@ -22,13 +22,15 @@
 
 # Pnpm Installation
 
-Using Corepack (included with node.js) - This is the preferred method:
+Preferred Method: Using Corepack (included with node.js):
 ```bash
 corepack enable
 corepack prepare pnpm@latest --activate
 ```
 
-Using npm (Global Install):
+Note: ```corepack enable``` needs to run in Administrator mode on Windows.
+
+Alternative Method: Using npm (Global Install):
 ```bash
 npm install -g pnpm
 ```
