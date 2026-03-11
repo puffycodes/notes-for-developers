@@ -9,7 +9,7 @@
 
 ## Others
 
-1. [OpenClaw](https://openclaw.ai/)
+1. [OpenClaw](https://openclaw.ai/) - [Installation](./ai-openclaw-installation.md)
 
 ***
 
