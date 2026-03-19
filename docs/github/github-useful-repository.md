@@ -1,5 +1,7 @@
 # Useful GitHub Repository
 
+Disclaimer: The following are just a collection of some GitHub repositories. Many of these repositories have not been verified so use with care.
+
 ## Cyber Security Tool
 
 1. [Common Password List (rockyou, etc.)](https://github.com/josuamarcelc/common-password-list)
@@ -16,9 +18,14 @@
 1. [Vulnerable Flask App](https://github.com/we45/Vulnerable-Flask-App)
 1. [WebGoat](https://github.com/WebGoat/WebGoat)
 
-## workshop and Tutorial
+## Workshop and Tutorial
 
 1. [AWS Q Developer Workshop: Best Practices for Java Developers](https://github.com/timwukp/amazonq-java-sql-developer-workshop.git)
 
+## Data and Information
+
+1. [Public APIs](https://github.com/public-apis/public-apis)
+1. [Crucix - Your Own Intelligence Terminal](https://github.com/calesthio/Crucix)
+
 ***
-*Updated on 3 February 2026*
+*Updated on 19 March 2026*
