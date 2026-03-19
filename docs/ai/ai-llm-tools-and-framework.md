@@ -10,6 +10,7 @@
 ## Others
 
 1. [OpenClaw](https://openclaw.ai/) - [Installation](./ai-openclaw-installation.md)
+1. [CrabShack](https://crabshack.ai/)
 
 ***
 
