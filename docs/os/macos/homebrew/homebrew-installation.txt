@@ -1,0 +1,176 @@
+Homebrew Installation Steps
+===========================
+
+Ref: https://mac.install.guide/homebrew/index.html
+
+Installation
+------------
+
+Note:
+Homebrew supports the Mac M1 chip (Apple silicon) beginning with the release of Homebrew 3.0.0 in February 2021. On Apple silicon, Homebrew installs files into the /opt/homebrew/ folder, which is not part of the default shell $PATH. You'll need to configure your shell environment so Homebrew packages are found and take priority over pre-installed tools.
+
+Requirement:
+
+- macOS > Version 12.0
+  (-> macOS Monterey Version 12.6)
+- Z shell
+  $ echo $SHELL
+  /bin/zsh
+  $ touch ~/.zshrc
+- $PATH setting
+  $ echo $PATH
+  /Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion Tech Preview.app/Contents/Public:/Library/Apple/usr/bin
+
+- Xcode Command Line Tools
+  # check Xcode
+  $ xcode-select -p
+  /Applications/Xcode.app/Contents/Developer
+  (-> The full Xcode package is already installed.)
+- git
+  $ git --version
+  git version 2.37.1 (Apple Git-137.1)
+
+- Install Homebrew
+  # Note: check https://brew.sh for any change in command
+  $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+(=== partial output ===)
+==> This script will install:
+/opt/homebrew/bin/brew
+/opt/homebrew/share/doc/homebrew
+/opt/homebrew/share/man/man1/brew.1
+/opt/homebrew/share/zsh/site-functions/_brew
+/opt/homebrew/etc/bash_completion.d/brew
+/opt/homebrew
+==> The following new directories will be created:
+/opt/homebrew/bin
+/opt/homebrew/etc
+/opt/homebrew/include
+/opt/homebrew/lib
+/opt/homebrew/sbin
+/opt/homebrew/share
+/opt/homebrew/var
+/opt/homebrew/opt
+/opt/homebrew/share/zsh
+/opt/homebrew/share/zsh/site-functions
+/opt/homebrew/var/homebrew
+/opt/homebrew/var/homebrew/linked
+/opt/homebrew/Cellar
+/opt/homebrew/Caskroom
+/opt/homebrew/Frameworks
+
+[snipped]
+
+Warning: /opt/homebrew/bin is not in your PATH.
+  Instructions on how to configure your shell for Homebrew
+  can be found in the 'Next steps' section below.
+==> Installation successful!
+
+==> Homebrew has enabled anonymous aggregate formulae and cask analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+No analytics data has been sent yet (nor will any be during this install run).
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+==> Next steps:
+- Run these three commands in your terminal to add Homebrew to your PATH:
+    echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/<username>/.zprofile
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/<username>/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+- Run brew help to get started
+- Further documentation:
+    https://docs.brew.sh
+(=== end of partial output ===)
+
+- set path for homebrew
+  $ echo '# Set PATH, MANPATH, etc., for Homebrew.' >> ~/.zprofile
+  $ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+  $ eval "$(/opt/homebrew/bin/brew shellenv)"
+
+- test homebrew
+  $ brew doctor
+  (see output in 10-homebrew-installation-brew-doctor-output.txt)
+  (ignore those warning for now)
+- other checks
+  $ brew list
+  $ brew deps --tree --installed
+
+Notes:
+
+- If after updating macOS, and cannot use commands such as git, do the following:
+  # this will reinstall Xcode Command Line Tools
+  $ xcode-select --install
+  # check by doing the following:
+  $ xcode-select -p
+  $ git --version
+
+Update Homebrew
+---------------
+
+$ brew update
+$ brew doctor
+# brew upgrade will upgrade packages
+$ brew upgrade
+
+# to check
+$ brew list
+$ brew deps --tree --installed
+
+Uninstall Homebrew
+------------------
+
+- Running the uninstall script
+  # check https://github.com/homebrew/install#uninstall-homebrew for any changes
+  $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
+- Remove homebrew shell configuration
+  # remove the line 'eval ...' from ~/.zprofile
+- Remove residual files
+  $ sudo rm -rf /opt/homebrew/
+  # check using
+  $ ls -ag /opt
+
+Install a Homebrew Package
+--------------------------
+
+Here are the steps to install a package with Homebrew on a Mac.
+
+  - brew search <package> to see if a package is available
+  - brew update to update Homebrew
+  - brew doctor to check that Homebrew is ready
+  - brew install <package> to install a package
+  - brew list <package> to verify installation
+  - brew pin <package> (optional to lock a version)
+
+Other commands:
+
+  - brew deps <package> to see a list of dependencies for the package, if any
+  - brew info <package>
+  - brew unpin <package>
+
+  - brew upgrade <package> to install the newest version of the package
+
+Uninstall a Homebrew Package
+----------------------------
+
+Here are the steps to install a package with Homebrew on a Mac.
+
+  - brew list <package> to see an installed package
+  - brew uninstall <package> to remove a package
+  - brew list <package> to verify removal
+  - brew autoremove to remove unused dependencies
+
+Housekeeping for Homebrew
+-------------------------
+
+  - brew list (to see all the packages in your local environment)
+  - brew outdated (to list all installed  packages that have a newer version available)
+  - brew upgrade (to upgrade all installed packages)
+  - brew update (to update Homebrew)
+  - brew autoremove
+  - brew cleanup
+  - brew cleanup --prune=all --dry-run
+  - brew cleanup --prune=all
+
+../
