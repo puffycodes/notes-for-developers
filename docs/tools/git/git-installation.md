@@ -9,7 +9,7 @@ Install Xcode Command Line Tools:
     git --version
     ```
 
-Alternative (no done this way):
+Alternative (not done this way):
 
 1. Install Homebrew.
 1. Install git on Homebrew.
