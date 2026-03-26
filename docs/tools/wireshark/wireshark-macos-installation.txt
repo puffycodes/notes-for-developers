@@ -1,0 +1,9 @@
+Wireshark Installation/Uninstallation Instruction
+=================================================
+
+See 'Read me first.html' in the .dmg file
+
+Action Done:
+1. Dragged Wireshark.app to /Application
+
+../
