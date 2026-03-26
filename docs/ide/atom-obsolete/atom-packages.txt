@@ -1,0 +1,20 @@
+Atom Packages
+=============
+
+1. For Web Development
+
+- atom-ternjs
+- autoclose-html-plus
+- emmet
+- csslint
+- pigments
+- language-ejs
+- atom-beautify
+
+optional:
+
+- atom-html-preview
+- Sublime-Style-Column-Selection
+- linter-eslint
+
+../
