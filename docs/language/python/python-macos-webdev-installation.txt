@@ -1,0 +1,17 @@
+Python Web Dev Installation
+===========================
+
+1. Install python (see python installation steps
+
+2. Create virtual environment
+
+  $ mkdir webdev
+  $ cd webdev
+  $ virtualenv -p python3 .
+  $ source bin/activate
+
+  $ pip install jupyter notebook
+
+  $ pip install --upgrade pip
+
+../

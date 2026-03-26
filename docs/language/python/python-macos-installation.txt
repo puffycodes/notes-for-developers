@@ -1,0 +1,200 @@
+Python Installation Steps
+=========================
+
+Ref: https://www.codingforentrepreneurs.com/blog/install-jupyter-notebooks-virtualenv
+
+1. Install python-3.9.7-macos11.pkg
+
+a. Follows the installation instruction
+
+  - creates /Applications/Python 3.9, /Library/Frameworks/Python.framework and symlinks in /usr/local/bin
+  - add /Library/Frameworks/Python.framework/Versions/3.9/bin to $PATH
+
+b. Test python
+
+  $ python3.9 -V
+
+2. Install pipenv globally
+
+a. Upgrade pip
+
+  $ sudo -H python3.9 -m pip install pip --upgrade
+
+  # NOTE: Don't use this. This install a local copy.
+  $ python3.9 -m pip install pip --upgrade
+  (or)
+  $ pip3 install pip --upgrade
+
+b. install pipenv
+
+  $ sudo -H python3.9 -m pip install pipenv
+  (or)
+  $ sudo -H pip3 install pipenv
+
+c. verify pipenv
+
+  $ pipenv
+
+*3. Create a virtual environment with pipenv
+
+a. Make an empty directory
+
+  $ mkdir test-dev1
+
+b. Initialize the virtual environment (NOTE: first time use causes the installation of the command line developer tools.)
+
+  $ pipenv install --python 3.9
+
+c. Activate the virtual environment
+
+  $ pipenv shell
+
+  - NOTE: use the command 'deactivate' to end the virtual environment
+
+  - NOTE: use the following to install
+      $ pipenv install Django
+      (or)
+      $ pipenv install Django=3.0.4
+
+*4. Install Jupyter Notebook
+
+  $ cd test-dev1
+  $ pipenv shell
+  (or)
+  $ source ~/.local/share/virtualenvs/test-dev-xxxxx/bin/activate
+
+  (standard) $ pip install jupyter notebook
+
+  (standard) $ jupyter notebook
+
+3 & 4 alternative. (using this method)
+
+  $ mkdir standard-dev
+  $ cd standard-dev
+  $ virtualenv -p python3 .
+  $ source bin/activate
+
+  (standard) $ pip install jupyter notebook
+
+  (standard) $ jupyter notebook
+
+For a different version of python
+
+  $ mkdir standard-dev-3.12
+  $ cd standard-dev-3.12
+  $ python3.12 -m virtualenv -p python3 .
+  $ source bin/activate
+  $ pip install -r <the-requirements.txt-as-needed>
+
+Python Libraries
+================
+
+$ source ~/Documents/python-workspace/virtualenvs/standard/bin/activate
+
+# upgrade pip
+(standard) $ pip install --upgrade pip
+
+# output requirements file
+(standard) $ pip freeze > requirements.txt
+
+some tools
+----------
+
+(standard) $ pip install base58
+
+# need ExifTool by Phil Harvey at https://exiftool.org/
+(standard) $ pip install PyExifTool
+
+pwntools
+--------
+
+# ref: https://docs.pwntools.com/en/stable/install.html
+
+# pwntools
+(standard) $ pip install --upgrade pwntools
+# note: installation failed at unicorn installation (TODO)
+#       ref: https://github.com/Gallopsled/pwntools/issues/1271
+
+PyCryptodome
+------------
+
+# ref: https://pycryptodome.readthedocs.io/en/latest/src/installation.html
+
+# pycryptodome as drop-in for PyCrypto (using this, since we are using a virtual environment)
+# package name is Crypto
+(standard) $ pip install pycryptodome
+# to test
+(standard) $ pip install pycryptodome-test-vectors
+(standard) $ python -m Crypto.SelfTest
+# note: some tests were skipped, esp the one related to gmp (TODO)
+
+# pycryptodome as independent package from PyCrypto (not using this)
+# package name is Cryptodome
+(standard) $ pip install pycryptodomex
+# to test
+(standard) $ pip install pycryptodome-test-vectors
+(standard) $ python -m Cryptodome.SelfTest
+
+cryptography
+------------
+
+(standard) $ pip install cryptography
+
+requests
+--------
+
+(standard) $ pip install requests
+
+HTML
+----
+
+(standard) $ pip install beautifulsoup4
+(standard) $ pip install html5lib
+(standard) $ pip install lxml
+
+data science
+------------
+
+# Pandas installation and optional packages: Ref: https://pandas.pydata.org/docs/getting_started/install.html
+
+(standard) $ pip install numpy
+(standard) $ pip install pandas
+
+# For reading Excel files
+
+(standard) $ pip install openpyxl
+
+visualization
+-------------
+
+(standard) $ pip install matplotlib
+
+gmpy2
+-----
+
+(standard) $ pip install gmpy2
+
+pyc decompilers
+---------------
+
+(standard) $ pip install decompyle3
+(standard) $ pip install uncompyle6
+
+# this install decompyle3 from the github (did not use)
+(standard) $ pip install git+https://github.com/rocky/python-decompile3
+
+packet tools
+------------
+
+(standard) $ pip install scapy
+
+(standard) $ pip install pyshark
+
+(standard) $ pip install dpkt
+
+pygame
+------
+
+(standard) $ pip install pygame
+
+../
