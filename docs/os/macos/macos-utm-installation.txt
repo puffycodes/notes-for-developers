@@ -1,0 +1,129 @@
+UTM
+===
+
+1. Download and install UTM from https://mac.getutm.app/
+
+Ubuntu on UTM
+=============
+
+2. Download and install Ubuntu Server for ARMS https://mac.getutm.app/gallery/ubuntu-20-04
+
+3. Install Ubuntu Desktop
+
+Log in and run:
+
+$ sudo apt update
+$ sudo apt install ubuntu-desktop
+$ sudo reboot
+
+4. Clipboard and Share
+
+4.1 Install SPICE Agent (Ref: https://docs.getutm.app/guest-support/linux/)
+
+$ sudo apt install spice-vdagent
+
+4.2 To mount share at mount point (/mnt/share)
+
+$ sudo mkdir /mnt/share
+$ sudo mount -t 9p -o trans-virtio share /mnt/share -oversion-9p2000.L
+
+# --- or add this line to /etc/fstab
+share	/mnt/share	9p	trans=virtio,version=9p2000.L,rw,_netdev,nofail	0
+# --- permission
+$ sudo chown -R $USER /mnt/share
+
+5. To upgrade
+
+$ sudo apt upgrade
+
+6. remove automatically installed packages
+
+$ sudo apt autoremove
+
+Packages
+--------
+
+$ sudo apt install net-tools ifupdown
+# --- curl and wget already installed with server
+$ sudo apt install curl wget
+
+Software
+--------
+
+=== Firefox
+
+# --- install firefox
+$ sudo apt install firefox
+
+# --- run firefox
+$ firefox
+
+# --- remove Firefox completely, along with any configurations
+$ sudo apt-get purge firefox
+
+# --- or simply uninstall Firefox
+$ sudo apt-get remove firefox
+
+# --- firefox not starting
+# --- Ref: https://ubuntuforums.org/showthread.php?t=2474678
+$ sudo nano /etc/gdm3/custom.conf
+# --- and uncomment (remove '#') the line containing:
+WaylandEnable=false
+
+=== Google Chrome
+
+# !!! This is for ARM64 only. There is no deb package for ARM64.
+# !!! For ARM64, try chromium instead
+
+# --- add the GPG key of the repository
+# --- keys are stored in /etc/apt/trusted.gpg.d
+$ wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo gpg --dearmour -o /usr/share/keyrings/google_linux_signing_key.gpg
+
+# --- add the chrome repository
+$ sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/google_linux_signing_key.gpg] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google.list'
+
+# --- update system's packages list
+$ sudo apt update
+
+# --- instal chrome
+$ sudo apt install google-chrome-stable
+
+# --- launch chrome
+$ google-chrome-stable
+
+# --- uninstall
+$ sudo apt remove google-chrome-stable
+$ sudo apt autoremove
+
+=== Chromium
+
+$ sudo apt install chromium-browser
+
+=== Python3
+
+# --- python 3 is already included in the installation
+
+# --- install pip3
+$ sudo apt install python3-pip
+
+# --- install virtualenv
+$ sudo pip3 install virtualenv
+
+# --- create and using virtual environment
+$ cd <virtual-environment-directory>
+$ mkdir standard
+$ virtualenv -p python3 .
+$ source ./bin/activate
+
+# --- deactivate
+(standard) $ deactivate
+
+# --- install jupyter notebook in virtual environment
+(standard) $ pip install jupyter notebook
+(standard) $ jupyter notebook
+
+=== Node.js
+
+$ sudo snap install --classic node
+
+../

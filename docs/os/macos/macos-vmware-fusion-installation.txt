@@ -1,0 +1,43 @@
+VMWare Fusion
+=============
+
+uninstall:
+
+Process to Uninstall VMware Fusion 10.x and later Manually:
+
+In VMware Fusion 10.x and later, there is no uninstaller. Most VMware Fusion files are contained within the application bundle (that is, the VMware Fusion application in /Applications).
+To uninstall VMware Fusion 10.x and later, drag the application bundle from the Applications folder to the Trash.
+
+Also, ensure that you delete these additional files and folders if they are present:
+
+Note: Depending on the environment, some of these files may not be present.
+
+    /Library/Application Support/VMware/VMware Fusion
+    /Library/Application Support/VMware/Usbarb.rules (Note: Do not delete if using any other VMware Products)
+    /Library/Application Support/VMware Fusion
+    /Library/Preferences/VMware Fusion
+    ~/Library/Application Support/VMware Fusion
+    ~/Library/Caches/com.vmware.fusion
+    ~/Library/Preferences/VMware Fusion
+    ~/Library/Preferences/com.vmware.fusion.LSSharedFileList.plist
+    ~/Library/Preferences/com.vmware.fusion.LSSharedFileList.plist.lockfile
+    ~/Library/Preferences/com.vmware.fusion.plist
+    ~/Library/Preferences/com.vmware.fusion.plist.lockfile
+    ~/Library/Preferences/com.vmware.fusionDaemon.plist
+    ~/Library/Preferences/com.vmware.fusionDaemon.plist.lockfile
+    ~/Library/Preferences/com.vmware.fusionStartMenu.plist
+    ~/Library/Preferences/com.vmware.fusionStartMenu.plist.lockfile
+
+For MAC OS:
+Note: In Mac OS X 10.7 Lion and later, the Library folder inside your user directory is hidden by default. To access your Library folder:
+
+    Click the Finder icon.
+    While pressing the Option key, click the Go menu. This reveals your Library folder.
+
+Notes:
+
+    Hard Disk Space: The virtual machines consume disk space on your Mac. Uninstalling Fusion does not affect/delete any of the existing virtual machines. If you want to remove your virtual machines, you must locate them using the Finder and either drag them to the Trash or right-click each file and click Move to Trash. The default save location for your virtual machines is in your Documents/Virtual Machines folder.
+
+For more information on locating your virtual machines, see Locating the virtual machine bundle in VMware Fusion (1007599).
+
+../
