@@ -1,0 +1,8 @@
+Sudo
+====
+
+1. Add the line to /private/etc/sudoers
+
+   <username> ALL = ALL
+
+../

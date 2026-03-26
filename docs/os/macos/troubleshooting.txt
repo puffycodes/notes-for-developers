@@ -1,0 +1,32 @@
+
+Problem:
+========
+
+Error Message:
+
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+
+Usually after MacOS update and when running 'git' or 'strings', etc.
+
+Solution:
+=========
+
+Ref: https://stackoverflow.com/questions/52522565/git-is-not-working-after-macos-update-xcrun-error-invalid-active-developer-pa
+
+Solution #1:
+
+$ xcode-select --install
+
+Then restart terminal
+
+Solution #2:
+
+If Solution #1 does not work, log into Apple Developer, and install it via webpage.
+
+Log in or sign up here:
+
+https://developer.apple.com/download/more/
+
+Look for: "Command Line Tools for Xcode 12.x" in the list of downloads Then click the dmg and download.
+
+../
