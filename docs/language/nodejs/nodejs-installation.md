@@ -17,6 +17,21 @@
 
 1. Same process as installation above.
 
+## Example Installation
+
+```
+node-v18.12.1.pkg:
+
+This package will install:
+	•	Node.js v18.12.1 to /usr/local/bin/node
+	•	npm v8.19.2 to /usr/local/bin/npm
+
+This package has installed:
+	•	Node.js v18.12.1 to /usr/local/bin/node
+	•	npm v8.19.2 to /usr/local/bin/npm
+Make sure that /usr/local/bin is in your $PATH.
+```
+
 ***
 ***
 
