@@ -13,6 +13,7 @@
 
 1. [HomeBrew](./homebrew/homebrew-installation.txt)
 1. [Docker](../../tools/docker/docker-macos-installation.md)
+1. [Visual Studio Code](../../ide/visual-studio-code/visual-studio-code-macos-installation.txt)
 1. [Python](../../language/python/python-macos-installation.txt)
 1. [NodeJS](../../language/nodejs/nodejs-installation.md)
 1. [Java](../../language/java/java-installation.md)
