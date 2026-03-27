@@ -8,7 +8,7 @@
 
 1. Search for ```code-security``` on [Automation Tools Directory](https://www.automationtools.directory/)
 
-## Tools
+## Code Security Scanning Tools
 
 1. [Kiro](https://kiro.dev/) - Formerly Amazon Q Developer
 1. [Almanax](https://almanax.ai/)
@@ -17,6 +17,12 @@
 1. [CodeRabbit](https://www.automationtools.directory/item/coderabbit)
 1. [Matter AI](https://www.automationtools.directory/item/matter-ai)
 1. [Entelligence AI](https://www.automationtools.directory/item/entelligence-ai)
+
+## Secret Scanning Tools
+
+1. [Trufflehog](https://trufflesecurity.com/trufflehog)
+1. [Gitleaks](https://gitleaks.io/)
+1. [Snyk](https://snyk.io/)
 
 ## Tutorials
 
