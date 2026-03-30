@@ -24,6 +24,8 @@
 1. [Gitleaks](https://gitleaks.io/)
 1. [Snyk](https://snyk.io/)
 
+1. [Others](../tools/security-tools/tool-audit-for-secrets-in-code.md)
+
 ## Tutorials
 
 1. [Amazon Q Developer Workshop: Best Practices for Java Developers](https://github.com/timwukp/amazonq-java-sql-developer-workshop)
