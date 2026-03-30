@@ -29,22 +29,22 @@ docker pull ghcr.io/gitleaks/gitleaks:latest
 
 Usage:
 ```bash
-docker run -v ${path_to_host_folder_to_scan}:/path zricethezav/gitleaks:latest [COMMAND] [OPTIONS] [SOURCE_PATH]
+docker run --rm -v ${path_to_host_folder_to_scan}:/path zricethezav/gitleaks:latest [COMMAND] [OPTIONS] [SOURCE_PATH]
 ```
 
 Check Version:
 ```bash
-docker run zricethezav/gitleaks:latest version
+docker run --rm zricethezav/gitleaks:latest version
 ```
 
 Scan Current Directory:
 ```bash
-docker run -v .:/path zricethezav/gitleaks:latest dir /path
+docker run --rm -v .:/path zricethezav/gitleaks:latest dir /path
 ```
 
 Scan Current Directory and Write Results to a file:
 ```bash
-docker run -v .:/path zricethezav/gitleaks:latest dir --report-path /path/findings.json /path
+docker run --rm -v .:/path zricethezav/gitleaks:latest dir --report-path /path/findings.json /path
 ```
 
 ***
