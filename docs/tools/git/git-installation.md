@@ -2,6 +2,8 @@
 
 ## On MacOS
 
+[Reference](https://git-scm.com/install/mac)
+
 Install Xcode Command Line Tools:
 
 1. Run any ```git``` command in the terminal. If git is not installed, a dialog box will appear prompting you to install the tools.
@@ -17,25 +19,20 @@ Alternative (not done this way):
     brew install git
     ```
 
-Configuration
-
-1. See [Initial Configuration](#initial-configuration-recommended)
-
 ## On Linux
 
-TODO
+[Reference](https://git-scm.com/install/linux)
 
-Configuration
-
-1. See [Initial Configuration](#initial-configuration-recommended)
+Installation on Debian or Ubuntu:
+```bash
+apt-get install git
+```
 
 ## On Windows
 
-TODO
+Installation
 
-Configuration
-
-1. See [Initial Configuration](#initial-configuration-recommended)
+1. Download from [here](https://git-scm.com/install/windows) and install.
 
 ***
 ***
@@ -55,4 +52,4 @@ git config --global user.email
 ```
 
 ***
-*Updated on 26 March 2026*
+*Updated on 30 March 2026*
