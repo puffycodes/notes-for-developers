@@ -6,7 +6,7 @@
 
 1. [TruffleHog](https://trufflesecurity.com/trufflehog)
 1. [Gitleaks](https://gitleaks.io/)
-1. [Snyk](https://snyk.io/)
+1. [Snyk AI Security Platform](https://snyk.io/)
 
 ***
 ***
