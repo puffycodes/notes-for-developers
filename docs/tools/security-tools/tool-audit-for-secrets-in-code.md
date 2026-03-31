@@ -1,5 +1,7 @@
 # Audit for Secrets in Code
 
+**Audit your own code for accidentally committed secrets**: Use dedicated tools like git-secrets, truffleHog, or detect-secrets
+
 # Contents
 
 1. [Secret Scanning Tools](#secret-scanning-tools)
@@ -8,8 +10,6 @@
     1. [GitLeaks](#gitleaks)
 
 # Secret Scanning Tools
-
-**Audit your own code for accidentally committed secrets**: Use dedicated tools like git-secrets, truffleHog, or detect-secrets
 
 1. [TruffleHog](https://trufflesecurity.com/trufflehog)
 1. [Gitleaks](https://gitleaks.io/)
