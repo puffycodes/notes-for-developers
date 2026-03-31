@@ -1,11 +1,20 @@
 # Audit for Secrets in Code
 
-**Audit your own code for accidentally committed secrets**: Use dedicated tools like git-secrets, truffleHog, or detect-secrets
+# Contents
+
+1. [Secret Scanning Tools](#secret-scanning-tools)
+1. [Installation](#installation)
+    1. [TruffleHog](#trufflehog)
+    1. [GitLeaks](#gitleaks)
 
 # Secret Scanning Tools
 
+**Audit your own code for accidentally committed secrets**: Use dedicated tools like git-secrets, truffleHog, or detect-secrets
+
 1. [TruffleHog](https://trufflesecurity.com/trufflehog)
 1. [Gitleaks](https://gitleaks.io/)
+1. [gitsecrets](https://github.com/awslabs/git-secrets)
+1. [detect-secrets](https://github.com/Yelp/detect-secrets)
 1. [Snyk AI Security Platform](https://snyk.io/)
 
 ***
@@ -83,4 +92,4 @@ docker run --rm -v .:/path zricethezav/gitleaks:latest dir --report-path /path/f
 ```
 
 ***
-*Updates on 30 March 2026*
+*Updates on 31 March 2026*
