@@ -13,6 +13,41 @@
 
 # Installation
 
+## TruffleHog
+
+Installation on Docker:
+```bash
+docker pull trufflesecurity/trufflehog:latest
+```
+
+Usage (Unix):
+```bash
+docker run --rm -it -v "$PWD:/pwd" trufflesecurity/trufflehog:latest github --repo https://github.com/trufflesecurity/test_keys
+```
+
+Usage (Windows):
+```cmd
+docker run --rm -it -v "%cd:/=\%:/pwd" trufflesecurity/trufflehog:latest github --repo https://github.com/trufflesecurity/test_keys
+```
+
+Usage (PowerShell):
+```
+docker run --rm -it -v "${PWD}:/pwd" trufflesecurity/trufflehog github --repo https://github.com/trufflesecurity/test_keys
+```
+
+Usage (M1 and M2 Mac):
+```bash
+docker run --platform linux/arm64 --rm -it -v "$PWD:/pwd" trufflesecurity/trufflehog:latest github --repo https://github.com/trufflesecurity/test_keys
+```
+
+Scan Current Directory:
+```bash
+docker run --rm -it -v .:/pwd trufflesecurity/trufflehog:latest filesystem /pwd
+```
+
+***
+***
+
 ## Gitleaks
 
 Installation on Docker from DockerHub:
