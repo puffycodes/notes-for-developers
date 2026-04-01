@@ -1,0 +1,30 @@
+Playwright
+==========
+
+# Ref: https://playwright.dev/docs/intro
+
+Installation
+
+$ npm init playwright@latest
+
+Run the example test
+
+$ npx playwright test
+
+See the report
+
+$ npx playwright show-report
+
+Run the example test in UI
+
+$ npx playwright test --ui
+
+Updating Playwright
+
+$ npm install -D @playwright/test@latest
+
+Check version
+
+$ npx playwright --version
+
+../
