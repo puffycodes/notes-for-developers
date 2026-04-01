@@ -1,5 +1,9 @@
 # Visual Studio Code Installation
 
+## Contents
+
+1. [Instllation for MacOS](#macos)
+
 ## MacOS
 
 ### Installation
@@ -11,10 +15,10 @@
 ### Launching from the command line
 
 1. Launch VS Code
-2. Open Command Palette and type 'shell command' to find "Shell Command: Install 'code' command in Path" command
-3. Restart the terminal
+1. Open Command Palette and type 'shell command' to find "Shell Command: Install 'code' command in Path" command
+1. Restart the terminal
 
-4. To remove, use "Shell Command: Uninstall 'code' command from PATH"
+1. To remove, use "Shell Command: Uninstall 'code' command from PATH"
 
 ### Extra
 
