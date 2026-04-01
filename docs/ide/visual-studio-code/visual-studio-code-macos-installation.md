@@ -12,6 +12,10 @@
 1. Extract all from the .zip file.
 1. Move Visual Studio Code.app to Application folder.
 
+### Update
+
+1. Vistual Studio Code will check for updates.
+
 ### Launching from the command line
 
 1. Launch VS Code
