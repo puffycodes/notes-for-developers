@@ -3,6 +3,7 @@
 ## Contents
 
 1. [Instllation for MacOS](#macos)
+1. [Installation for Windows](#windows)
 
 ## MacOS
 
@@ -32,5 +33,12 @@ Removing path:
 
 1. Install Python extension (which include jupyter notebook extension)
 
+## Windows
+
+### Installation
+
+1. Download from [here](https://code.visualstudio.com/download)
+1. Run the downloaded file (.exe)
+
 ***
-*Updated on 1 April 2026*
+*Updated on 2 April 2026*
