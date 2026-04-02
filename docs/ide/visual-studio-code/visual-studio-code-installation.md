@@ -5,6 +5,9 @@
 1. [Instllation for MacOS](#macos)
 1. [Installation for Windows](#windows)
 
+***
+***
+
 ## MacOS
 
 ### Installation
@@ -32,6 +35,9 @@ Removing path:
 ### Extra
 
 1. Install Python extension (which include jupyter notebook extension)
+
+***
+***
 
 ## Windows
 
