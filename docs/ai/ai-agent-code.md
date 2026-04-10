@@ -3,6 +3,7 @@
 ## Tutorials and Guides for Writing Agent Code
 
 1. [The Complete Guide to Building Skill for Claude](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf)
+1. [Agentic Skills Best Practices](https://github.com/timwukp/agent-skills-best-practice)
 
 ## Agent Code Repository
 
