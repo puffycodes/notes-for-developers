@@ -10,7 +10,7 @@
 
 1. [The Complete Guide to Building Skill for Claude](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf)
 1. [Agentic Skills Best Practices](https://github.com/timwukp/agent-skills-best-practice)
-1. [Agentic Design Pattern](https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-2-reflection/)
+1. [Agentic Design Patterns](https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/)
 
 ## Agent Code Repository
 
