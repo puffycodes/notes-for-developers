@@ -16,4 +16,8 @@ Host github.com
 
 $ pbcopy < ~/.ssh/id_ed25519_github_com.pub
 
+- Check fingerprint of SSH keygen
+
+$ ssh-keygen -lf ~/.ssh/id_ed25519_github_com.pub
+
 ../
