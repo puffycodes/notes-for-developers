@@ -1,5 +1,12 @@
 # Git Installation
 
+## Contents
+
+1. [Installation on MacOS](#on-macos)
+1. [Installation on Linux](#on-linux)
+1. [Installation on Windows](#on-windows)
+1. [Initial Configuration](#initial-configuration-recommended)
+
 ## On MacOS
 
 [Reference](https://git-scm.com/install/mac)
