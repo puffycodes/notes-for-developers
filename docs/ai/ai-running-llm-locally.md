@@ -13,6 +13,7 @@
 ## Docker Model Runner
 
 Reference: [Docker Model Runner](https://docs.docker.com/ai/model-runner/)
+Reference: [Smol Models](https://github.com/huggingface/smollm)
 
 Test:
 ```
@@ -46,4 +47,4 @@ docker model pull hf.co/StableDiffusionVN/Flux:Q4_K_S
 Reference: [LMStudio](https://lmstudio.ai/)
 
 ***
-*Updated on 23 December 2025*
+*Updated on 19 April 2026*
