@@ -5,7 +5,9 @@ SSH Key for GitHub on MacOS
 
 - Generation
 
-$ ssh-keygen -t ed25519 -C "GitHub Key"
+$ cd ~
+$ mkdir .ssh
+$ ssh-keygen -t ed25519 -C "GitHub Key" -f id_ed25519_github_com
 
 $ vi ~/.ssh/config
 Host github.com
