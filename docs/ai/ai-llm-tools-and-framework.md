@@ -20,6 +20,10 @@
 1. [CrabShack](https://crabshack.ai/)
 1. [Clawdi](https://www.clawdi.ai/)
 
+## AI Knowledge Compiler
+
+1. [Wiki Compiler](https://github.com/atomicmemory/llm-wiki-compiler)
+
 ## LLM Application Framework
 
 1. [onyx](https://github.com/onyx-dot-app/onyx)
@@ -34,4 +38,4 @@
 1. [List of open-source artifial intelligence software](https://en.wikipedia.org/wiki/Lists_of_open-source_artificial_intelligence_software)
 
 ***
-*Updated on 5 April 2026*
+*Updated on 25 April 2026*
