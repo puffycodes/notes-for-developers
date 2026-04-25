@@ -3,6 +3,7 @@
 ## AI IDE and Code Related Stuff
 
 1. [Claude Code](https://claude.com/product/claude-code) - [Installation](ai-claude-code-installation.md)
+    1. [Persistent Memory Compression System Built for Claude Code](https://github.com/thedotmack/claude-mem)
 1. [Kiro](https://kiro.dev/) - [Installation](../aws/aws-kiro-installation.md)
 1. [Glass - AI Editor](https://editor.glass/)
 1. [Goose](https://github.com/block/goose)
