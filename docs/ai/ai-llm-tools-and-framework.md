@@ -25,6 +25,10 @@
 
 1. [Wiki Compiler](https://github.com/atomicmemory/llm-wiki-compiler)
 
+## MCP
+
+1. [n8n MCP](https://github.com/czlonkowski/n8n-mcp)
+
 ## LLM Application Framework
 
 1. [onyx](https://github.com/onyx-dot-app/onyx)
