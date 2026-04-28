@@ -67,4 +67,6 @@ pypdf
 beautifulsoup4
 tiktoken
 
+markdown-pdf
+
 # --- end of file --- #
