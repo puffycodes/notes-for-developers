@@ -16,3 +16,8 @@ secrets/
 # Python
 __pycache__
 .venv
+
+# graphify
+graphify-out/manifest.json
+graphify-out/cost.json
+graphify-out/cache
