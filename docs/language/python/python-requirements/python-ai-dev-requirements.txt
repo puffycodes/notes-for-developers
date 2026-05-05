@@ -59,6 +59,9 @@ datasets
 
 sentence-transformers
 
+# Skills
+graphifyy
+
 # Databases
 pymongo
 

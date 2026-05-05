@@ -9,7 +9,7 @@
 1. [Goose](https://github.com/block/goose)
 1. [Everything Claude Code - Performance Optimizor](https://github.com/affaan-m/everything-claude-code)
 1. Skills
-    1. [graphify](https://github.com/safishamsi/graphify)
+    1. [graphify](https://github.com/safishamsi/graphify) - [Installation](#graphify-installation)
 
 ## AI UI Design and Generation
 
@@ -46,6 +46,20 @@
 ## Others
 
 1. [List of open-source artifial intelligence software](https://en.wikipedia.org/wiki/Lists_of_open-source_artificial_intelligence_software)
+
+***
+***
+
+# Installation
+
+## Graphify Installation
+
+- Installation with Setup for Kiro
+    ```bash
+    source <virtual_env>/bin/activate
+    pip install graphifyy
+    graphify kiro install
+    ```
 
 ***
 *Updated on 5 May 2026*
