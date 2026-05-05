@@ -54,12 +54,23 @@
 
 ## Graphify Installation
 
-- Installation with Setup for Kiro
+- Installation in virtualenv
     ```bash
     source <virtual_env>/bin/activate
-    pip install 
+    pip install graphifyy
+    ```
+
+- Setup for Kiro
+    ```bash
     cd <project_folder>
     graphify kiro install
+    ```
+
+- Run
+    ```bash
+    source <virtual_env>/bin/activate
+    kiro-cli
+    /graphify
     ```
 
 ***
