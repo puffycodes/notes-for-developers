@@ -25,6 +25,11 @@
 
 1. [Wiki Compiler](https://github.com/atomicmemory/llm-wiki-compiler)
 
+## AI Security Tool
+
+1. [PentestGPT](https://pentestgpt.com/) - [On GitHub](https://github.com/GreyDGL/PentestGPT)
+1. [Hacking Tool - All-in-One Security Research Framework](https://github.com/Z4nzu/hackingtool)
+
 ## MCP
 
 1. [n8n MCP](https://github.com/czlonkowski/n8n-mcp)
@@ -43,4 +48,4 @@
 1. [List of open-source artifial intelligence software](https://en.wikipedia.org/wiki/Lists_of_open-source_artificial_intelligence_software)
 
 ***
-*Updated on 25 April 2026*
+*Updated on 5 May 2026*
