@@ -117,7 +117,8 @@ ffmpeg
 ffmpeg-python
 
 # PyGame
-## Some dependencies on Widnows not met so leave out for now
+## Some dependencies on Windows not met so leave out for now
+## For Python 3.14 only. Downgrade to Python 3.13 and below to install.
 #pygame
 
 # Financial
