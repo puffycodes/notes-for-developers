@@ -117,7 +117,8 @@ ffmpeg
 ffmpeg-python
 
 # PyGame
-pygame
+## Some dependencies on Widnows not met so leave out for now
+#pygame
 
 # Financial
 ## OpenBB
