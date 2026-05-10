@@ -23,5 +23,14 @@ Alternative
 
 1. Download standalone installer from [here](https://www.python.org.downloads/)
 
+## Installation of Packages for Windows
+
+- Microsoft C++ Build Tools
+    - Some packages need MSVC to build. See [Visual Studio Build Tools for C++](https://visualstudio.microsoft.com/visual-cpp-build-tools/).
+        - Install 'Visual Studio Build Tools 20xx' with 'Desktop Development for C++'
+- Enable Windows Long Path
+    - Some packages need Windows Long Path Enabled. See [How to Enable Windows Long Path](https://pip.pypa.io/warnings/enable-long-paths).
+        - Run gpedit.msc in terminal with Administrator rights to set.
+
 ***
 *Updated on 17 April 2026*
