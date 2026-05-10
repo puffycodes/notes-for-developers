@@ -12,16 +12,18 @@ ipywidgets
 python-dotenv
 
 # LangChain
-langchain
 langchain-core
+langchain
 langchain-community
+langchain-text-splitters
+
 deepagents
-langchain-google-genai
 
 # LangChain Model Specific
 langchain-anthropic
 langchain-huggingface
 langchain-openai
+langchain-google-genai
 langchain-perplexity
 langchain-tavily
 
@@ -29,35 +31,32 @@ langchain-tavily
 langchain-mongodb
 langchain-neo4j
 
-# LangChain Misc
-langchain-text-splitters
-
 # LangGraph
 langgraph
 langgraph-checkpoint-sqlite
 
 # CrewAI
-crewai
-#crewai_tools
-#crewai[tools]
+# crewai
+# #crewai_tools
+# #crewai[tools]
 
 # Anthropic
-anthropic
+# anthropic
 
 # MCP
-mcp-use
+# mcp-use
 
 # Hugging Face
-huggingface_hub
-#huggingface_hub[tensorflow]
-#huggingface_hub[torch]
-#huggingface_hub[cli]
+# huggingface_hub
+# #huggingface_hub[tensorflow]
+# #huggingface_hub[torch]
+# #huggingface_hub[cli]
 
-transformers
-datasets
-#evaluate
+# transformers
+# datasets
+# #evaluate
 
-sentence-transformers
+# sentence-transformers
 
 # Skills
 graphifyy
