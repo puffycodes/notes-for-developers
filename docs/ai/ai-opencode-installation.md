@@ -1,5 +1,9 @@
 # Open Code Installation
 
+References:
+
+1. [OpenCode](https://opencode.ai/)
+
 ## On Docker on Windows
 
 Create Configuration Folder
@@ -25,6 +29,7 @@ curl http://localhost:12434/v1/models
 
 References:
 
+1. [OpenCode Provider](https://opencode.ai/docs/providers)
 1. [OpenCode with Docker Model Runner for Private AI Coding](https://www.docker.com/blog/opencode-docker-model-runner-private-ai-coding/)
 1. [DMR REST API](https://docs.docker.com/ai/model-runner/api-reference/)
 
