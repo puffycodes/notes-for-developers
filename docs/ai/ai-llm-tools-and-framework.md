@@ -7,6 +7,7 @@
 1. [Kiro](https://kiro.dev/) - [Installation](../aws/aws-kiro-installation.md)
 1. [Glass - AI Editor](https://editor.glass/)
 1. [Goose](https://github.com/block/goose)
+1. [OpenCode](https://opencode.ai/)
 1. [Everything Claude Code - Performance Optimizor](https://github.com/affaan-m/everything-claude-code)
 1. Skills
     1. [graphify](https://github.com/safishamsi/graphify) - [Installation](#graphify-installation)
@@ -74,4 +75,4 @@
     ```
 
 ***
-*Updated on 5 May 2026*
+*Updated on 14 May 2026*
