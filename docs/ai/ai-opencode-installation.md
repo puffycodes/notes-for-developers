@@ -22,7 +22,10 @@ Docker Model Setup Verification
 curl http://localhost:12434/v1/models
 ```
 
-Reference: [OpenCode with Docker Model Runner for Private AI Coding](https://www.docker.com/blog/opencode-docker-model-runner-private-ai-coding/)
+References:
+
+1. [OpenCode with Docker Model Runner for Private AI Coding](https://www.docker.com/blog/opencode-docker-model-runner-private-ai-coding/)
+1. [DMR REST API](https://docs.docker.com/ai/model-runner/api-reference/)
 
 Sample %USERPROFILE%\.config\opencode\opencode.json
 ```
