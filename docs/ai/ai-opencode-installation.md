@@ -14,6 +14,7 @@ docker run -it --rm --name opencode -v %USERPROFILE%\.config\opencode:/root/.con
 
 Pull Docker Model
 ```cmd
+docker model pull gpt-oss
 docker model pull qwen3-coder
 ```
 
