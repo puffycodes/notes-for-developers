@@ -33,7 +33,7 @@ Sample %USERPROFILE%\.config\opencode\opencode.json
             "npm": "@ai-sdk/openai-compatible",
             "name": "Docker Model Runner",
             "options": {
-                "baseURL": "http://localhost:12434/engines/v1"
+                "baseURL": "http://localhost:12434/engines/llama.cpp/v1"
             },
             "models": {
                 "qwen3-coder": {
