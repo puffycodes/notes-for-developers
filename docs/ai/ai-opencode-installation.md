@@ -6,6 +6,7 @@
 1. [OpenCode Provider](https://opencode.ai/docs/providers)
 1. [OpenCode with Docker Model Runner for Private AI Coding](https://www.docker.com/blog/opencode-docker-model-runner-private-ai-coding/)
 1. [DMR REST API](https://docs.docker.com/ai/model-runner/api-reference/)
+1. [How to run OpenCode AI in a Docker container](https://agileweboperations.com/2025/11/23/how-to-run-opencode-ai-in-a-docker-container/)
 
 ## On Docker on Windows
 
