@@ -23,9 +23,14 @@ docker model pull qwen3-coder
 ```
 
 Docker Model Setup Verification
-```cmd
-curl http://localhost:12434/v1/models
-```
+- From Host Process
+    ```cmd
+    curl http://localhost:12434/v1/models
+    ```
+- From Containers
+    ```cmd
+    curl http://model-runner.docker.internal/v1/models
+    ```
 
 References:
 
