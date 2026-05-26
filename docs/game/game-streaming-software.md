@@ -18,7 +18,8 @@
         - **Installation** Download the .msi file for AMD64/x64. Run to install.
         - **Configuration**
             - Access [https://localhost:47990/](https://localhost:47990/) to set password
-            - Install ```ViGEmBus Driver``` from [https://localhost:47990/troubleshooting](https://localhost:47990/troubleshooting) - *need to run browser in administrator account*
+            - Install ```ViGEmBus Driver```
+                - Download installer (.exe) from [ViGEmBus Driver](https://github.com/nefarius/ViGEmBus/releases)
 
 1. [Moonlight Installation](https://moonlight-stream.org/)
     - MacOS Installation
