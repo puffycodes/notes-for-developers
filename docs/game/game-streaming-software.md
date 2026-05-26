@@ -10,6 +10,7 @@
 
 1. [Sunshine](https://github.com/lizardbyte/sunshine) and [Moonlight](https://moonlight-stream.org/)
 1. [Sunshine Latest Documentation](https://docs.lizardbyte.dev/projects/sunshine/latest/)
+1. [Ultimate Guide to Configure Sunshine + Moonlight for Remote Play](https://www.reddit.com/r/MoonlightStreaming/comments/1nmqalh/ultimate_guide_to_configuring_moonlight_sunshine/)
 
 ### Installation Guide
 
@@ -31,6 +32,8 @@
     - MacOS Installation
         - **Installation** Download the .dmg file for MacOS (Universal). Double click to open and drag ```Moonlight.app``` to ```Application```.
         - **Upgrade** Remove the ```Moonlight.app``` from ```Application``` and follow the Installation steps.
+        - **Notes***
+            - To quit a Moonlight session on MacOS, use Ctrl-Option-Shift-Q instead of Ctrl-Alt-Shift-Q.
 
 ***
 *Updated on 26 May 2026*
