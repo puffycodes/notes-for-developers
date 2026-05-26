@@ -15,11 +15,17 @@
 
 1. [Sunshine Installation](https://docs.lizardbyte.dev/projects/sunshine/latest/md_docs_2getting__started.html)
     - Windows Installation
-        - **Installation** Download the .msi file for AMD64/x64. Run to install.
+        - **Install Sunshine**
+            - Download the .msi file for AMD64/x64. Run to install.
+        - **Install ViGEmBus Driver**
+            - Download installer (.exe) from [ViGEmBus Driver](https://github.com/nefarius/ViGEmBus/releases). Run to install.
+            - Restart Windows after installation of driver.
+            - Note: Do not install from Sunshine configuration page.
         - **Configuration**
             - Access [https://localhost:47990/](https://localhost:47990/) to set password
-            - Install ```ViGEmBus Driver```
-                - Download installer (.exe) from [ViGEmBus Driver](https://github.com/nefarius/ViGEmBus/releases)
+        - **Connect Client**
+            - On client, start Moonlight client, select server and obtain PIN
+            - On server, go to PIN tab, enter PIN and assign a host name
 
 1. [Moonlight Installation](https://moonlight-stream.org/)
     - MacOS Installation
