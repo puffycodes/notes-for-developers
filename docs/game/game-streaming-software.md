@@ -33,7 +33,7 @@
         - **Installation** Download the .dmg file for MacOS (Universal). Double click to open and drag ```Moonlight.app``` to ```Application```.
         - **Upgrade** Remove the ```Moonlight.app``` from ```Application``` and follow the Installation steps.
         - **Notes***
-            - To quit a Moonlight session on MacOS, use Ctrl-Option-Shift-Q instead of Ctrl-Alt-Shift-Q.
+            - To disconnect a Moonlight session on MacOS, use Ctrl-Option-Shift-Q instead of Ctrl-Alt-Shift-Q.
 
 ***
 *Updated on 26 May 2026*
