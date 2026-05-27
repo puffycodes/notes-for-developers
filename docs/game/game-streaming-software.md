@@ -11,6 +11,7 @@
 1. [Sunshine](https://github.com/lizardbyte/sunshine) and [Moonlight](https://moonlight-stream.org/)
 1. [Sunshine Latest Documentation](https://docs.lizardbyte.dev/projects/sunshine/latest/)
 1. [Ultimate Guide to Configure Sunshine + Moonlight for Remote Play](https://www.reddit.com/r/MoonlightStreaming/comments/1nmqalh/ultimate_guide_to_configuring_moonlight_sunshine/)
+1. [Virtual Display Driver](https://github.com/VirtualDrivers/Virtual-Display-Driver)
 
 ### Installation Guide
 
