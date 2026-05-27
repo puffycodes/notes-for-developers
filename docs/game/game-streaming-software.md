@@ -30,8 +30,15 @@
             - Download installer (.exe) from [ViGEmBus Driver](https://github.com/nefarius/ViGEmBus/releases). Run to install.
             - Restart Windows after installation of driver.
             - Note: Do not install from Sunshine configuration page.
+        - **Install Virtual Display Driver** (See Note)
+            - Download installer (VDD.Control.xx.xx.xx.zip) from [VDD Release](https://github.com/VirtualDrivers/Virtual-Display-Driver/releases)
+                - Unzip to a folder and run ```VDD Control.exe```
+                - Click on ```Install Driver```
+                - Restart Windows
+            - Note: Necessary if the host is running as headless.
         - **Configuration**
             - Access [https://localhost:47990/](https://localhost:47990/) to set password
+            - Note: Run ```dxgi-info.exe``` to see information on graphic cards and displays.
         - **Connect Client**
             - On client, start Moonlight client, select server and obtain PIN
             - On server, go to PIN tab, enter PIN and assign a host name
@@ -44,4 +51,4 @@
             - To disconnect a Moonlight session on MacOS, use Ctrl-Option-Shift-Q instead of Ctrl-Alt-Shift-Q.
 
 ***
-*Updated on 26 May 2026*
+*Updated on 27 May 2026*
