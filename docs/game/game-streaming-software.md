@@ -35,6 +35,10 @@
                 - Unzip to a folder and run ```VDD Control.exe```
                 - Click on ```Install Driver```
                 - Restart Windows
+            - Set resolution of Virtual Display
+                - Log in using Desktop on Moonlight
+                - Right click on empty space on Desktop and choose ```Display Settings```
+                - Change the resolution
             - Note: Necessary if the host is running as headless.
         - **Configuration**
             - Access [https://localhost:47990/](https://localhost:47990/) to set password
