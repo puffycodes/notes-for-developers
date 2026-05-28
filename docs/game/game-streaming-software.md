@@ -31,11 +31,12 @@
             - Restart Windows after installation of driver.
             - Note: Do not install from Sunshine configuration page.
         - **Install Virtual Display Driver** (See Note)
-            - Download installer (VDD.Control.xx.xx.xx.zip) from [VDD Release](https://github.com/VirtualDrivers/Virtual-Display-Driver/releases)
+            - Download installer (VDD.Control.xx.xx.xx.zip) from [Virtual Display Driver Release](https://github.com/VirtualDrivers/Virtual-Display-Driver/releases)
                 - Unzip to a folder and run ```VDD Control.exe```
                 - Click on ```Install Driver```
                 - Restart Windows
             - Note: Necessary if the host is running as headless.
+            - Note: Configuration file is in "C:\VirtualDisplayDriver\vdd_settings.xml"
         - **Configuration**
             - Access [https://localhost:47990/](https://localhost:47990/) to set password
             - Note: Run ```dxgi-info.exe``` to see information on graphic cards and displays.
