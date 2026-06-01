@@ -65,5 +65,17 @@ Sample %USERPROFILE%\.config\opencode\opencode.json for Docker Container
 }
 ```
 
+OpenCode Skills File Directory
+
+1. Create the skill file directory
+    ```cmd
+    mkdir -p %USERPROFILE%\.config\opencode\skills
+    ```
+1. Copy the skill files to the skill file directory
+    ```cmd
+    mkdir -p %USERPROFILE%\.config\opencode\skills\<skill_name>
+    copy <skill_name>\SKILL.md %USERPROFILE%\.config\opencode\skills\<skill_name>
+    ```
+
 ***
-*Updated on 15 May 2026*
+*Updated on 1 June 2026*
