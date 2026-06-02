@@ -9,6 +9,8 @@
 1. [How to run OpenCode AI in a Docker container](https://agileweboperations.com/2025/11/23/how-to-run-opencode-ai-in-a-docker-container/)
 1. [OpenCode vs Claude Code](https://www.builder.io/blog/opencode-vs-claude-code)
 1. [OpenCode vs Claude Code vs Copilot vs Gemini: Very Simple Review](https://dev.to/mendesbarreto/opencode-vs-claude-code-vs-copilot-vs-gemini-very-simple-review-1dpm)
+1. [OpenCode CLI Set Up](https://aiberm.com/docs/en/opencode/)
+1. [OpenCode CLI Cheat Sheet – Commands and Workflows](https://computingforgeeks.com/opencode-cli-cheat-sheet/)
 
 ## On Docker on Windows
 
