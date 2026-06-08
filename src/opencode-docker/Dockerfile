@@ -28,7 +28,7 @@ RUN curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | g
     && apt-get install -y gh
 
 # Clean up APT lists
-#RUN rm -rf /var/lib/apt/lists/*
+RUN rm -rf /var/lib/apt/lists/*
 
 # Add the 'ubuntu' user to the sudo group and allow passwordless sudo
 RUN usermod -aG sudo ubuntu \
