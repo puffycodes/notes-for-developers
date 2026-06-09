@@ -62,6 +62,15 @@ RUN mkdir -p /home/ubuntu/.local/share/opencode \
 RUN mkdir -p /home/ubuntu/.config/opencode \
     && chown -R ubuntu:ubuntu /home/ubuntu/.config/opencode
 
+# Install uv
+# - uv is installed at /home/ubuntu/.local/bin/uv.
+# - This is not added to the PATH while the Dockerfile is being built,
+# - so the use of uv need to be specified with its full path.
+RUN curl -fsSL https://astral.sh/uv/install.sh | bash
+
+# Install graphiffy
+RUN /home/ubuntu/.local/bin/uv tool install graphifyy
+
 # Install OpenCode AI
 # https://opencode.ai/docs/
 RUN curl -fsSL https://opencode.ai/install | bash
