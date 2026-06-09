@@ -19,7 +19,8 @@ RUN apt-get update && \
     wget \
     git \
     python3 \
-    python3-pip
+    python3-pip \
+    python3-virtualenv
 
 # Install GitHub CLI (gj)
 RUN curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | gpg --dearmor -o /usr/share/keyrings/githubcli-archive-keyring.gpg \
@@ -70,10 +71,18 @@ RUN mkdir -p /home/ubuntu/workspace \
 # - uv is installed at /home/ubuntu/.local/bin/uv.
 # - This is not added to the PATH while the Dockerfile is being built,
 # - so the use of uv need to be specified with its full path.
-RUN curl -fsSL https://astral.sh/uv/install.sh | bash
+#RUN curl -fsSL https://astral.sh/uv/install.sh | bash
 
 # Install graphiffy
-RUN /home/ubuntu/.local/bin/uv tool install graphifyy
+#RUN /home/ubuntu/.local/bin/uv tool install graphifyy
+
+# Create a virtual environment to run opencode
+RUN mkdir -p /home/ubuntu/venv \
+    && chown -R ubuntu:ubuntu /home/ubuntu/venv \
+    && (cd /home/ubuntu/venv && python3 -m virtualenv .)
+
+# Install the necessary packages in the virtual environment
+RUN (. /home/ubuntu/venv/bin/activate && pip install openai graphifyy)
 
 # Install OpenCode AI
 # https://opencode.ai/docs/
