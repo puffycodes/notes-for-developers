@@ -62,6 +62,10 @@ RUN mkdir -p /home/ubuntu/.local/share/opencode \
 RUN mkdir -p /home/ubuntu/.config/opencode \
     && chown -R ubuntu:ubuntu /home/ubuntu/.config/opencode
 
+# Create a workspace directory to mount the project
+RUN mkdir -p /home/ubuntu/workspace \
+    && chown -R ubuntu:ubuntu /home/ubuntu/workspace
+
 # Install uv
 # - uv is installed at /home/ubuntu/.local/bin/uv.
 # - This is not added to the PATH while the Dockerfile is being built,
