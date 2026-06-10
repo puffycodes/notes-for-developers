@@ -29,7 +29,7 @@ export OLLAMA_API_KEY="dummy"
 Set up a directory for graphify in opencode.
 ```
 cd <directory>
-graphify opencode install
+graphify install opencode
 ```
 
 ***
