@@ -9,8 +9,15 @@ docker build -t opencode-ubuntu .
 ## Run
 
 Run the docker container.
+
+On Windows:
 ```cmd
 docker run --rm -it --name opencode-ubuntu -v %USERPROFILE%\.config\opencode:/home/ubuntu/.config/opencode -v %CD%:/home/ubuntu/workspace -v %USERPROFILE%\.ssh\id_ed25519_github:/home/ubuntu/.ssh/id_ed25519 -v %USERPROFILE%\.ssh\id_ed25519_github.pub:/home/ubuntu/.ssh/id_ed25519.pub -w /home/ubuntu/workspace opencode-ubuntu bash
+```
+
+On Linux/MacOS:
+```bash
+docker run --rm -it --name opencode-ubuntu -v ~/.config/opencode:/home/ubuntu/.config/opencode -v .:/home/ubuntu/workspace -v ~/.ssh/id_ed25519_github_com:/home/ubuntu/.ssh/id_ed25519 -v ~/.ssh/id_ed25519_github_com.pub:/home/ubuntu/.ssh/id_ed25519.pub -w /home/ubuntu/workspace opencode-ubuntu bash
 ```
 
 Start the Python virtual environment.
