@@ -25,7 +25,7 @@ Start the Python virtual environment.
 source ~/venv/bin/activate
 ```
 
-Set those environment variables for graphify.
+Set those environment variables for graphify. (Do not need this.)
 ```bash
 export GRAPHIFY_EXTRACT_URL="http://model-runner.docker.internal/engines/llama.cpp/v1"
 export GRAPHIFY_MODEL_BACKEND="ollama" 
@@ -39,5 +39,15 @@ cd <directory>
 graphify install opencode
 ```
 
+Start opencode in docker image.
+```bash
+opencode
+```
+
+In opencode, graphify the current folder.
+```
+/graphify .
+```
+
 ***
-*Updated on 9 June 2026*
+*Updated on 12 June 2026*
