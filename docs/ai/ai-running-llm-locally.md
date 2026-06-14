@@ -6,6 +6,7 @@
 1. Software
     1. [Docker Model Runner](#docker-model-runner)
     1. [LMStudio](#lmstudio)
+    1. [Find the Right Local Model](#find-the-right-local-models)
 
 ## Hardware
 
@@ -52,5 +53,12 @@ docker model pull hf.co/StableDiffusionVN/Flux:Q4_K_S
 
 1. [LMStudio](https://lmstudio.ai/)
 
+### Find the Right Local Models
+
+1. Check which models run well on your machine - [llmfit](https://github.com/AlexsJones/llmfit)
+    ```bash
+    docker run ghcr.io/alexsjones/llmfit
+    ```
+
 ***
-*Updated on 19 April 2026*
+*Updated on 14 June 2026*
