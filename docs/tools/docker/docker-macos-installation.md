@@ -18,7 +18,13 @@
 
 ### Upgrade
 
-1. Upgrade from Docker.desktop when notified
+1. First try this.
+    1. Upgrade from Docker Desktop when notified.
+1. Alternative if the above failed.
+    1. Download from [Docker Update](https://www.docker.com/products/docker-desktop/).
+    1. Open the .dmg file.
+    1. Remove the existing Docker.app in the Application folder.
+    1. Copy the Docker.app from the .dmg file into the Application folder.
 
 ***
-*Updated on 26 December 2025*
+*Updated on 26 June 2026*
