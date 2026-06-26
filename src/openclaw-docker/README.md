@@ -16,10 +16,15 @@ On Linux/MacOS:
     cd openclaw-workspace
     mkdir .openclaw workspace
     ```
-- Run OpenClaw (TODO: Need to test this.)
+- Run OpenClaw Docker (TODO: Need to test this.)
     ```bash
     cd openclaw-workspace
     docker run --rm -it --name openclaw-ubuntu -v .openclaw:/home/ubuntu/.openclaw -v workspace:/home/ubuntu/workspace openclaw-ubuntu bash
+    ```
+
+- In OpenClaw Docker
+    ```bash
+    openclaw onboard
     ```
 
 ***
