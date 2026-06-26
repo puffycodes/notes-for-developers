@@ -45,6 +45,10 @@ RUN mkdir -p /home/ubuntu/.ssh && \
 RUN ssh-keyscan github.com >> /home/ubuntu/.ssh/known_hosts && \
     chmod 644 /home/ubuntu/.ssh/known_hosts
 
+# Create the directory structure for the configuration files and fix ownership
+RUN mkdir -p /home/ubuntu/.openclaw \
+    && chown -R ubuntu:ubuntu /home/ubuntu/.openclaw
+
 # Create a workspace directory to mount the project
 RUN mkdir -p /home/ubuntu/workspace \
     && chown -R ubuntu:ubuntu /home/ubuntu/workspace
