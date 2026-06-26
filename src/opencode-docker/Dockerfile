@@ -1,4 +1,5 @@
 # file: Dockerfile
+# - Create a docker image for running OpenCode
 
 # Use the latest Ubuntu image as the base image
 FROM ubuntu:latest
