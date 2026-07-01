@@ -49,6 +49,7 @@ Sample %USERPROFILE%\.config\opencode\opencode.json for Docker Container
 ```
 {
     "$schema": "https://opencode.ai/config.json",
+    "model": "dmr/gpt-oss",
     "provider": {
         "dmr": {
             "npm": "@ai-sdk/openai-compatible",
@@ -68,6 +69,12 @@ Sample %USERPROFILE%\.config\opencode\opencode.json for Docker Container
     }
 }
 ```
+
+Notes for OpenCode configuration file opencode.json
+1. Set the default model in ```'model'```.
+    1. Full ID is ```'provider_id/model_id'```.
+    1. For custom provider, the ```'provider_id'``` is the key from the ```'provider'``` part of the configuration file, and the ```'model_id'``` is the key from ```'provider.models'```.
+1. Add custom providers in ```'provider'```.
 
 OpenCode Skills File Directory
 
