@@ -7,6 +7,7 @@
     1. [Docker Model Runner](#docker-model-runner)
     1. [LMStudio](#lmstudio)
     1. [Find the Right Local Model](#find-the-right-local-models)
+1. [Using Local Models with Existing Tools](#using-local-models-with-existing-tools)
 
 ## Hardware
 
@@ -60,5 +61,10 @@ docker model pull hf.co/StableDiffusionVN/Flux:Q4_K_S
     docker run ghcr.io/alexsjones/llmfit
     ```
 
+## Using Local Models with Existing Tools
+
+1. [Run Claude Code with Local & Cloud Models](https://medium.com/@luongnv89/run-claude-code-on-local-cloud-models-in-5-minutes-ollama-openrouter-llama-cpp-6dfeaee03cda)
+1. [Using Claude Code with Docker Model Runner](https://docs.docker.com/guides/claude-code-model-runner/)
+
 ***
-*Updated on 14 June 2026*
+*Updated on 7 July 2026*
