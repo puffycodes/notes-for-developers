@@ -3,6 +3,7 @@
 ## Reference
 
 1. [Claude Code Installation](https://code.claude.com/docs/en/setup)
+1. [Quickstart](https://code.claude.com/docs/en/quickstart)
 
 ## Installation for MacOS, Linux or WSL
 
@@ -27,4 +28,4 @@ Authentication Options:
 2. With [Claude Console](https://console.anthropic.com)
 
 ***
-*Updated on 28 January 2026*
+*Updated on 8 July 2026*
