@@ -27,5 +27,16 @@ Authentication Options:
 1. With [Claude's Pro or Max Plan](https://claude.ai)
 2. With [Claude Console](https://console.anthropic.com)
 
+Uninstall:
+
+Use
+```
+claude uninstall
+```
+or
+```
+rm -f ~/.local/bin/claude
+```
+
 ***
-*Updated on 8 July 2026*
+*Updated on 9 July 2026*
