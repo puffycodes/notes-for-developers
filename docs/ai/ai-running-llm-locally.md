@@ -6,6 +6,7 @@
 1. Software
     1. [Docker Model Runner](#docker-model-runner)
     1. [LMStudio](#lmstudio)
+    1. [Ollama](#ollama)
     1. [Find the Right Local Model](#find-the-right-local-models)
 1. [Using Local Models with Existing Tools](#using-local-models-with-existing-tools)
 
@@ -53,6 +54,30 @@ docker model pull hf.co/StableDiffusionVN/Flux:Q4_K_S
 ### LMStudio
 
 1. [LMStudio](https://lmstudio.ai/)
+
+### Ollama
+
+1. [Ollama](https://ollama.com/)
+
+#### Installation
+
+Install ollama on Linux (Ubuntu) and pull a model
+
+```bash
+sudo apt install zstd
+curl -fsSL https://ollama.com/install.sh | bash
+ollama pull devstral-small-2
+```
+
+Run a model
+```bash
+ollama run devstral-small-2
+```
+
+Install ollama on Windows using PowerShell
+```powershell
+irm https://ollama.com/install.ps1 | iex
+```
 
 ### Find the Right Local Models
 
