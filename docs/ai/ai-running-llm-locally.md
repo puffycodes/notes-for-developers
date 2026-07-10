@@ -92,4 +92,4 @@ irm https://ollama.com/install.ps1 | iex
 1. [Using Claude Code with Docker Model Runner](https://docs.docker.com/guides/claude-code-model-runner/)
 
 ***
-*Updated on 7 July 2026*
+*Updated on 10 July 2026*
