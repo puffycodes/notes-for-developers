@@ -12,6 +12,12 @@
 1. [OpenCode CLI Set Up](https://aiberm.com/docs/en/opencode/)
 1. [OpenCode CLI Cheat Sheet – Commands and Workflows](https://computingforgeeks.com/opencode-cli-cheat-sheet/)
 
+## Install Locally
+
+```bash
+curl -fsSL https://opencode.ai/install | bash
+```
+
 ## On Docker on Windows
 
 Create Configuration Folder
@@ -45,6 +51,14 @@ Docker Model Setup Verification
     curl http://model-runner.docker.internal/v1/models
     ```
 
+## Sample OpenCode Configuration File
+
+### File Location
+
+1. Location for ```opencode.json``` file:
+    - MacOS/Linux: ```~/.config/opencode/opencode.json```
+    - Windows: ```%USERPROFILE%\.config\opencode\opencode.json```
+
 Sample %USERPROFILE%\.config\opencode\opencode.json for Docker Container
 ```
 {
@@ -70,13 +84,44 @@ Sample %USERPROFILE%\.config\opencode\opencode.json for Docker Container
 }
 ```
 
+Sample opencode.json file for Ollama running locally:
+```
+{
+    "$schema": "https://opencode.ai/config.json",
+    "model": "ollama/gpt-oss",
+    "provider": {
+        "ollama": {
+            "npm": "@ai-sdk/openai-compatible",
+            "name": "Ollama Local",
+            "options": {
+                "baseURL": "http://127.0.0.1:11434/v1"
+            },
+            "models": {
+                "qwen2.5-coder:7b": {
+                    "name": "qwen2.5-coder:7b",
+                    "tools": true
+                },
+                "gpt-oss": {
+                    "name": "gpt-oss",
+                    "tools": true
+                },
+                "devstral-small-2": {
+                    "name": "devstral-small-2",
+                    "tools": true
+                }
+            }
+        }
+    }
+}
+```
+
 Notes for OpenCode configuration file opencode.json
 1. Set the default model in ```'model'```.
     1. Full ID is ```'provider_id/model_id'```.
     1. For custom provider, the ```'provider_id'``` is the key from the ```'provider'``` part of the configuration file, and the ```'model_id'``` is the key from ```'provider.models'```.
 1. Add custom providers in ```'provider'```.
 
-OpenCode Skills File Directory
+## OpenCode Skills File Directory
 
 1. Create the skill file directory
     ```cmd
