@@ -36,6 +36,9 @@ langchain-neo4j
 langgraph
 langgraph-checkpoint-sqlite
 
+# Google ADK
+google-adk
+
 # CrewAI
 # crewai
 # #crewai_tools
