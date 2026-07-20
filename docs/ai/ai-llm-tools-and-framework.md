@@ -49,6 +49,7 @@
 1. [Google ADK](https://adk.dev/)
     1. [Get Started](https://adk.dev/get-started/python/)
     1. Get key from [Key API](https://aistudio.google.com/app/apikey)
+    1. [ADK Crash Course](https://codelabs.developers.google.com/onramp/instructions#0)
     1. [ADK Tutorial](https://github.com/Kjdragan/google-adk-tutorial)
 
 ## Others
