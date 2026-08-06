@@ -51,6 +51,7 @@
     1. Get key from [Key API](https://aistudio.google.com/app/apikey)
     1. [ADK Crash Course](https://codelabs.developers.google.com/onramp/instructions#0)
     1. [ADK Tutorial](https://github.com/Kjdragan/google-adk-tutorial)
+    1. [Session State](https://adk.dev/sessions/state/)
 
 ## Others
 
