@@ -75,4 +75,7 @@ tiktoken
 
 markdown-pdf
 
+requests
+ddgs
+
 # --- end of file --- #
