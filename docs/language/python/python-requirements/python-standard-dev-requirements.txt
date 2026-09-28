@@ -135,6 +135,9 @@ financetoolkit
 ## Ref: https://github.com/wolever/parameterized
 parameterized
 
+pytest
+pytest-asyncio
+
 # Documentation using Sphinx
 sphinx
 furo
