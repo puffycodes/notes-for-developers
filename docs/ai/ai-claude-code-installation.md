@@ -54,4 +54,4 @@ curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del in
 Add ```%USERPROFILE%\.local\bin```: System Properties -> Environment Variables -> Edit User PATH -> New -> Add the path
 
 ***
-*Updated on 30 September 2026*
+*Updated on 29 September 2026*
