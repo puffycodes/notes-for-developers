@@ -45,5 +45,13 @@ or
 rm -f ~/.local/bin/claude
 ```
 
+## Installation for Windows
+
+```cmd
+curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd
+```
+
+Add ```%USERPROFILE%\.local\bin```: System Properties -> Environment Variables -> Edit User PATH -> New -> Add the path
+
 ***
-*Updated on 9 July 2026*
+*Updated on 30 September 2026*
