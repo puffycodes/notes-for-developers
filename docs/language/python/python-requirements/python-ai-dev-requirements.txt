@@ -78,4 +78,8 @@ markdown-pdf
 requests
 ddgs
 
+# Test Tools
+pytest
+pytest-asyncio
+
 # --- end of file --- #

@@ -65,6 +65,9 @@ rsa
 # HTTP Connection Tools
 requests
 
+# Search Tools
+ddgs
+
 # Replacement for Telnetlib
 telnetlib3
 Exscript

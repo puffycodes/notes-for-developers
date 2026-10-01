@@ -24,4 +24,14 @@ statsmodels
 # Financial Data
 openbb
 
+# HTTP Connection Tools
+requests
+
+# Search Tools
+ddgs
+
+# Test Tools
+pytest
+pytest-asyncio
+
 # --- end of file --- #
