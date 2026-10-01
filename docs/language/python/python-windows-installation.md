@@ -23,6 +23,16 @@ Alternative
 
 1. Download standalone installer from [here](https://www.python.org.downloads/)
 
+## Upgrade Packages for Virtual Environment
+
+```cmd
+pip install --upgrade -r <requirements.txt>
+```
+
+```powershell
+pip list --outdated | Select-Object -Skip 2 | ForEach-Object { $_ -split " +" | Select-Object -First 1 } | ForEach-Object { pip install --upgrade $_ }
+```
+
 ## Installation of Packages for Windows
 
 - Microsoft C++ Build Tools
@@ -33,4 +43,4 @@ Alternative
         - Run gpedit.msc in terminal with Administrator rights to set.
 
 ***
-*Updated on 17 April 2026*
+*Updated on 1 October 2026*
