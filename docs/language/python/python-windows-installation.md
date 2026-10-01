@@ -25,13 +25,16 @@ Alternative
 
 ## Upgrade Packages for Virtual Environment
 
-```cmd
-pip install --upgrade -r <requirements.txt>
-```
+1. Upgrade with a requirement file
+    ```cmd
+    pip install --upgrade -r <requirements.txt>
+    ```
 
-```powershell
-pip list --outdated | Select-Object -Skip 2 | ForEach-Object { $_ -split " +" | Select-Object -First 1 } | ForEach-Object { pip install --upgrade $_ }
-```
+2. Upgrade the outdated packages (may need to repeat a few times)
+
+    ```powershell
+    pip list --outdated | Select-Object -Skip 2 | ForEach-Object { $_ -split " +" | Select-Object -First 1 } | ForEach-Object { pip install --upgrade $_ }
+    ```
 
 ## Installation of Packages for Windows
 
