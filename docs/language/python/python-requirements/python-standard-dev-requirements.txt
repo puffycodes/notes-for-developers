@@ -68,7 +68,7 @@ requests
 # Search Tools
 ddgs
 
-# Indexing Tools
+# Graph Indexing and Search Tools
 graphifyy
 
 # Replacement for Telnetlib

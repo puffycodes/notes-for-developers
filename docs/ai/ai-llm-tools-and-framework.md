@@ -84,10 +84,22 @@
     /graphify
     ```
 
+- Install Skill for Claude
+    ```bash
+    graphify install --platform claude
+    ```
+
 - Setup for Claude
     ```bash
     cd <project_folder>
     graphify claude install
+    ```
+
+- Run for Claude
+    ```bash
+    source <virtual_env>/bin/activate
+    claude
+    /graphify .
     ```
 
 ***
