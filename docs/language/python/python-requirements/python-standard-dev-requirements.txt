@@ -68,6 +68,9 @@ requests
 # Search Tools
 ddgs
 
+# Indexing Tools
+graphifyy
+
 # Replacement for Telnetlib
 telnetlib3
 Exscript

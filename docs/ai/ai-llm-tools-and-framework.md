@@ -84,5 +84,11 @@
     /graphify
     ```
 
+- Setup for Claude
+    ```bash
+    cd <project_folder>
+    graphify claude install
+    ```
+
 ***
-*Updated on 14 May 2026*
+*Updated on 6 October 2026*
